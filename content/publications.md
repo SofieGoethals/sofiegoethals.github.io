@@ -1,3 +1,4 @@
+##Research
 ### Journal Publications
 - Goethals, S., Sörensen, K., & Martens, D. (2023). The privacy issue of counterfactual explanations: explanation linkage attacks. ACM Transactions on Intelligent Systems and Technology, 14(5), 1-24.
    - [Available online](https://dl.acm.org/doi/abs/10.1145/3608482?casa_token=jTZ9jodFLYgAAAAA%3AovCJhwiJaXcoKmqNh8v2F3i5GpiQdokZFfshoXfPAyBnY_9eM1VphnijXo6em0XndSf3vRSeBOAj)
