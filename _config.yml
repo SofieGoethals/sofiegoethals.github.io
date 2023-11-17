@@ -22,6 +22,9 @@ author: Sofie Goethals
 navbar-links:
   About Me: "aboutme"
   Research: "publications"
+  Presentations: "presentations"
+  #News: "news"
+  
   #Resources:
    # - Beautiful Jekyll: "https://beautifuljekyll.com"
     #- Learn markdown: "https://www.markdowntutorial.com/"
