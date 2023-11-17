@@ -7,7 +7,7 @@ Hi! My name is Sofie Goethals. I am currently a PhD Researcher in the Applied Da
 
 
 ### Research Interests
-Trustworthy Machine Learning (Transparency, Fairness, Privacy); Explainable AI; Computational Social Science
+Trustworthy Machine Learning (Transparency, Fairness, Privacy); Explainable AI; Computational Social Science.
 
 ### Employment
 - **2020 - 2024:** PhD, University of Antwerp
