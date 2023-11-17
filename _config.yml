@@ -20,7 +20,7 @@ author: Sofie Goethals
 ###############################################
 
 navbar-links:
-  About Me: "content/aboutme"
+  About Me: "aboutme"
   Research: "content/publications"
   Outreach: "content/presentations"
   #News: "news"
