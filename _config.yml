@@ -22,7 +22,7 @@ author: Sofie Goethals
 navbar-links:
   About Me: "aboutme"
   Research: "publications"
-  Presentations: "presentations"
+  Presentations: "content/presentations"
   #News: "news"
   
   #Resources:
