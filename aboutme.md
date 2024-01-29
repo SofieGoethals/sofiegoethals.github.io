@@ -11,6 +11,8 @@ Trustworthy Machine Learning (Transparency, Fairness, Privacy); Explainable AI; 
 
 ### Employment
 - **2020 - 2024:** PhD, University of Antwerp
+- **January 2024 - March 2024:** Visiting researcher, Oxford Internet Institute
+- **January 2023 - May 2023:** Visiting researcher, NYU Stern
 - **2020:** Intern, Accenture Liquid Studios
   
 ### Education
