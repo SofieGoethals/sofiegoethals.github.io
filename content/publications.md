@@ -23,4 +23,6 @@ title: Research
 - Greene, T., Goethals, S., Martens, D., & Shmueli, G. (2023). Monetizing Explainable AI: A Double-edged Sword.
    - [Available online](https://arxiv.org/pdf/2304.06483.pdf)
 - Goethals, S., Matz, S., Provost, F., Martens, D., Ramon, Y. (2023).  Implications of Cloaking Digital Footprints for Privacy and Personalization
-   - [Available online](https://arxiv.org/pdf/2312.15000.pdf)    
+   - [Available online](https://arxiv.org/pdf/2312.15000.pdf)
+- Goethals, S., Calders, T. , Martens, D. (2024).  Beyond Accuracy-Fairness: Stop evaluating bias mitigation methods solely on between-group metrics
+   - [Available online](https://arxiv.org/abs/2401.13391)  
