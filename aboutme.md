@@ -20,3 +20,7 @@ Trustworthy Machine Learning (Transparency, Fairness, Privacy); Explainable AI; 
 - **2017 - 2019:** Master in Business Engineering, KU Leuven
 - **2014 - 2017:** Bachelor in Business Engineering, KU Leuven
 
+### Other activities
+- **2022 - 2024:** Ambassador and organizer of [Women in Data Science Belgium](https://www.womenindatascience.be/)
+
+
