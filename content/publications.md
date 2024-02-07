@@ -5,7 +5,7 @@ title: Research
 - Goethals, S., Sörensen, K., & Martens, D. (2023). The privacy issue of counterfactual explanations: explanation linkage attacks. ACM Transactions on Intelligent Systems and Technology, 14(5), 1-24.
    - [Available online](https://dl.acm.org/doi/abs/10.1145/3608482?casa_token=jTZ9jodFLYgAAAAA%3AovCJhwiJaXcoKmqNh8v2F3i5GpiQdokZFfshoXfPAyBnY_9eM1VphnijXo6em0XndSf3vRSeBOAj)
 - Goethals, S., Martens, D., & Calders, T. (2023). PreCoF: counterfactual explanations for fairness. Machine Learning, 1-32.
-   - [Available online](https://dl.acm.org/doi/abs/10.1145/3608482?casa_token=jTZ9jodFLYgAAAAA%3AovCJhwiJaXcoKmqNh8v2F3i5GpiQdokZFfshoXfPAyBnY_9eM1VphnijXo6em0XndSf3vRSeBOAj)
+   - [Available online](https://link.springer.com/article/10.1007/s10994-023-06319-8)
 - Goethals, S., Martens, D., & Evgeniou, T. (2022). The non-linear nature of the cost of comprehensibility. Journal of Big Data, 9(1), 1-23.
    - [Available online](https://link.springer.com/article/10.1186/s40537-022-00579-2?trk=public_post_comment-text)
 - Vermeire, T., Brughmans, D., Goethals, S., de Oliveira, R. M. B., & Martens, D. (2022). Explainable image classification with evidence counterfactual. Pattern Analysis and Applications, 25(2), 315-335.
@@ -25,4 +25,4 @@ title: Research
 - Goethals, S., Matz, S., Provost, F., Martens, D., Ramon, Y. (2023).  Implications of Cloaking Digital Footprints for Privacy and Personalization
    - [Available online](https://arxiv.org/pdf/2312.15000.pdf)
 - Goethals, S., Calders, T. , Martens, D. (2024).  Beyond Accuracy-Fairness: Stop evaluating bias mitigation methods solely on between-group metrics
-   - [Available online](https://arxiv.org/abs/2401.13391)  
+   - [Available online](https://arxiv.org/pdf/2401.13391.pdf)
