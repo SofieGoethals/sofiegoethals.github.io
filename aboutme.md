@@ -10,7 +10,7 @@ Hi! My name is Sofie Goethals. I am currently a PhD Researcher (fellowship grant
 Trustworthy Machine Learning (Transparency, Fairness, Privacy); Explainable AI; Computational Social Science.
 
 ### Employment
-- **2020 - 2024:** PhD, University of Antwerp
+- **2020 - 2024:** PhD researcher, University of Antwerp
 - **January 2024 - March 2024:** Visiting researcher, Oxford Internet Institute (as part of [the Programme on the Governance of Emerging Technologies](https://www.oii.ox.ac.uk/research/projects/governance-of-emerging-technologies/))
 - **January 2023 - May 2023:** Visiting researcher, NYU Stern
 - **2020:** Intern, Accenture Liquid Studios
