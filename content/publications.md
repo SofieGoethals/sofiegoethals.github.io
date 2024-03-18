@@ -26,3 +26,5 @@ title: Research
    - [Available online](https://arxiv.org/pdf/2312.15000.pdf)
 - Goethals, S., Calders, T. , Martens, D. (2024).  Beyond Accuracy-Fairness: Stop evaluating bias mitigation methods solely on between-group metrics
    - [Available online](https://arxiv.org/pdf/2401.13391.pdf)
+- Rhue, L., Goethals, S., & Sundararajan, A. (2024). Evaluating LLMs for Gender Disparities in Notable Persons. 
+   - [Available online](https://arxiv.org/pdf/2403.09148.pdf)
