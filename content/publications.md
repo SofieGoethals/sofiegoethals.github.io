@@ -24,7 +24,7 @@ title: Research
    - [Available online](https://arxiv.org/pdf/2304.06483.pdf)
 - Goethals, S., Matz, S., Provost, F., Martens, D., Ramon, Y. (2023).  Implications of Cloaking Digital Footprints for Privacy and Personalization
    - [Available online](https://arxiv.org/pdf/2312.15000.pdf)
-- Goethals, S., Calders, T. , Martens, D. (2024).  Beyond Accuracy-Fairness: Stop evaluating bias mitigation methods solely on between-group metrics
-   - [Available online](https://arxiv.org/pdf/2401.13391.pdf)
+- Goethals, S., Calders, T. , Martens, D. (2024).  Reranking individuals: The effect of fair classification within-groups.
+   - [Available online](https://arxiv.org/pdf/2401.13391)
 - Rhue, L., Goethals, S., & Sundararajan, A. (2024). Evaluating LLMs for Gender Disparities in Notable Persons. 
    - [Available online](https://arxiv.org/pdf/2403.09148.pdf)
