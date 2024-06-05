@@ -1,8 +1,7 @@
 ---
 title: Outreach
 ---
-### Presentations
-* Explainable AI **DigiTax Conference**, Antwerp, Belgium, 2024
+### Conference Presentations
 * Responsible AI: How can Explainable AI help address ethical issues? **PhD Seminar, Oxford Internet Institute**, Oxford, United Kingdom, 2024
 * Explainability methods to measure discrimination in machine learning models. **Flanders AI Research Day**, Mechelen, Belgium, 2023
 * Explainability methods to measure discrimination in machine learning models. **BIAS workshop at ECML**: Third Workshop on Bias and Fairness in AI, Turin, Italy, 2023
@@ -13,6 +12,8 @@ title: Outreach
 * How counterfactual explanations can be used to detect bias in a machine learning model. **Doctoral Day, University of Antwerp**, 2022, Belgium, 2022
 * How counterfactual explanations can be used to detect bias in a machine learning model. **EURO: 32th European Conference on Operational Research**, Espoo, Finland, 2022
 
+### Invited talks
+* Panel discussion: Introduction to Explainable AI. **DigiTax Conference**, Antwerp, Belgium, 2024
 
 ### Press and blogposts
 * My research has been featured in [Harvard Business Review](https://hbr.org/2023/05/ai-can-be-both-accurate-and-transparent).
