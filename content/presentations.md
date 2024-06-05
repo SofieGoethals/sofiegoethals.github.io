@@ -12,8 +12,8 @@ title: Outreach
 * How counterfactual explanations can be used to detect bias in a machine learning model. **Doctoral Day, University of Antwerp**, 2022, Belgium, 2022
 * How counterfactual explanations can be used to detect bias in a machine learning model. **EURO: 32th European Conference on Operational Research**, Espoo, Finland, 2022
 
-### Invited talks
+### Invited Talks
 * Panel discussion: Introduction to Explainable AI. **DigiTax Conference**, Antwerp, Belgium, 2024
 
-### Press and blogposts
+### Press and Blogposts
 * My research has been featured in [Harvard Business Review](https://hbr.org/2023/05/ai-can-be-both-accurate-and-transparent).
