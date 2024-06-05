@@ -20,11 +20,13 @@ title: Research
    - [Available online](https://feast-ecmlpkdd.github.io/archive/2021/papers/FEAST2021_paper_7.pdf)
  
 ### Preprints
-- Greene, T., Goethals, S., Martens, D., & Shmueli, G. (2023). Monetizing Explainable AI: A Double-edged Sword.
+- Greene, T., Goethals, S., Martens, D. & Shmueli, G. (2023). Monetizing Explainable AI: A Double-edged Sword.
    - [Available online](https://arxiv.org/pdf/2304.06483.pdf)
-- Goethals, S., Matz, S., Provost, F., Martens, D., Ramon, Y. (2023).  Implications of Cloaking Digital Footprints for Privacy and Personalization
+- Goethals, S., Matz, S., Provost, F., Martens, D. & Ramon, Y. (2023).  Implications of Cloaking Digital Footprints for Privacy and Personalization
    - [Available online](https://arxiv.org/pdf/2312.15000.pdf)
-- Goethals, S., Calders, T. , Martens, D. (2024).  Reranking individuals: The effect of fair classification within-groups.
+- Goethals, S. & Calders, T.  (2024).  Reranking individuals: The effect of fair classification within-groups.
    - [Available online](https://arxiv.org/pdf/2401.13391)
+- Goethals, S., Delaney, E., Mittelstadt, B. & Russell, C. (2024).  Reranking individuals: The effect of fair classification within-groups.
+   - [Available online](https://arxiv.org/pdf/2406.01290)
 - Rhue, L., Goethals, S., & Sundararajan, A. (2024). Evaluating LLMs for Gender Disparities in Notable Persons. 
    - [Available online](https://arxiv.org/pdf/2403.09148.pdf)
