@@ -15,5 +15,5 @@ title: Outreach
 
 
 ### Press and Blogposts
-* Responsible AI in Finance. [Belgisch Financiaal Forum].(https://financialforum.be/nl/bfw-digitaal/responsible-ai-in-finance)
+* Responsible AI in Finance ([Belgisch Financiaal Forum](https://financialforum.be/nl/bfw-digitaal/responsible-ai-in-finance)).
 * My research has been featured in [Harvard Business Review](https://hbr.org/2023/05/ai-can-be-both-accurate-and-transparent).
