@@ -62,7 +62,7 @@ _Responsible AI in Finance_
 ### 2023
 
 **[Harvard Business Review](https://hbr.org/2023/05/ai-can-be-both-accurate-and-transparent)**  
-_My research has been featured in Harvard Business Review_  
+_AI can be both accurate and transparent_ (featured research)  
 2023
 
 
