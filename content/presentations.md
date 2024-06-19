@@ -16,4 +16,5 @@ title: Outreach
 * Panel discussion: Introduction to Explainable AI. **DigiTax Conference**, Antwerp, Belgium, 2024
 
 ### Press and Blogposts
+* Responsible AI in Finance. [Belgisch Financiaal Forum].(https://financialforum.be/nl/bfw-digitaal/responsible-ai-in-finance)
 * My research has been featured in [Harvard Business Review](https://hbr.org/2023/05/ai-can-be-both-accurate-and-transparent).
