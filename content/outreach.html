@@ -3,26 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Talks</title>
+    <title>Outreach</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f8f8f8;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        h1, h2 {
+            font-weight: bold;
+            margin: 20px 0;
         }
         h1 {
             font-size: 2em;
-            font-weight: bold;
+        }
+        h2 {
+            font-size: 1.5em;
         }
         .year {
             color: grey;
             font-size: 1.5em;
             margin-top: 1em;
         }
-        .talk {
+        .talk, .post {
             margin-bottom: 1em;
         }
-        .conference {
+        .conference, .source {
             font-weight: bold;
             display: block;
         }
@@ -30,13 +48,24 @@
             font-style: italic;
             display: block;
         }
-        .location {
+        .location, .date {
             display: block;
         }
     </style>
 </head>
 <body>
-    <h1>Talks</h1>
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#talks">Talks</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <h1>Outreach</h1>
+
+    <h2 id="talks">Talks</h2>
 
     <div class="year">2024</div>
     <div class="talk">
@@ -92,6 +121,22 @@
         <span class="conference">EURO: 32th European Conference on Operational Research</span>
         <span class="title">How counterfactual explanations can be used to detect bias in a machine learning model</span>
         <span class="location">Espoo, Finland</span>
+    </div>
+
+    <h2 id="press-and-blogposts">Press and Blogposts</h2>
+
+    <div class="year">2024</div>
+    <div class="post">
+        <span class="source"><a href="https://financialforum.be/nl/bfw-digitaal/responsible-ai-in-finance">Belgisch Financiaal Forum</a></span>
+        <span class="title">Responsible AI in Finance</span>
+        <span class="date">2024</span>
+    </div>
+
+    <div class="year">2023</div>
+    <div class="post">
+        <span class="source"><a href="https://hbr.org/2023/05/ai-can-be-both-accurate-and-transparent">Harvard Business Review</a></span>
+        <span class="title">My research has been featured in Harvard Business Review</span>
+        <span class="date">2023</span>
     </div>
 
 </body>
