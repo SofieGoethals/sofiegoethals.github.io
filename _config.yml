@@ -23,7 +23,7 @@ navbar-links:
   About Me: "aboutme"
   Research: "content/publications"
   Outreach: "content/presentations"
-  Outreach 2: "content/outreach"
+  #Outreach 2: "content/outreach"
   #News: "news"
   
   #Resources:
