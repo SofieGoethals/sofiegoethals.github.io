@@ -3,7 +3,7 @@ layout: page
 title: About me
 subtitle: Sofie Goethals
 ---
-Hi! My name is Sofie Goethals. I am currently a PhD Researcher (fellowship granted by the Research Foundation-Flanders) in the [Applied Data Mining group](https://admantwerp.github.io/) at the University of Antwerp. Supervised by Professor David Martens, I study how we can make AI more aligned with our ethical objectives.
+Hi! My name is Sofie Goethals. I am currently a postdoctoral researcher at Columbia Business School, supervised by Professor Sandra Matz. Prior to that, I obtained my PhD in the [Applied Data Mining group](https://admantwerp.github.io/) at the University of Antwerp, supervised by Professor David Martens.
 
 
 ### Research Interests
