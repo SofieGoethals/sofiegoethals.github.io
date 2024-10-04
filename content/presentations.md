@@ -6,7 +6,7 @@ title: Outreach
 ## Talks
 
 ### 2024
-**EURO OSS on Operational Research and Machine Learning** 
+**EURO OSS on Operational Research and Machine Learning**     
 _K-anonymous counterfactual explanations_
 Online
 
