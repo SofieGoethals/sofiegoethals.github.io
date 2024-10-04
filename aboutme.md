@@ -10,15 +10,15 @@ Hi! My name is Sofie Goethals. I am currently a postdoctoral researcher at Colum
 Trustworthy Machine Learning (Transparency, Fairness, Privacy); Explainable AI; Computational Social Science.
 
 ### Employment
-- **September 2024 - September 2025:** Postdoctoral researcher, Columbia Business School
+- September 2024 - September 2025: Postdoctoral researcher, **Columbia Business School**
   - _Supported by FWO postdoctoral fellowship, BAEF and Fulbright_
-- **September 2020 - September 2024:** PhD researcher, University of Antwerp
+- September 2020 - September 2024: PhD researcher, **University of Antwerp**
   - _Supported by FWO doctoral fellowship_   
-- **January 2024 - March 2024:** Visiting researcher, Oxford Internet Institute (as part of [the Programme on the Governance of Emerging Technologies](https://www.oii.ox.ac.uk/research/projects/governance-of-emerging-technologies/))
+- January 2024 - March 2024: Visiting researcher, **Oxford Internet Institute** (as part of [the Programme on the Governance of Emerging Technologies](https://www.oii.ox.ac.uk/research/projects/governance-of-emerging-technologies/))
   - _Supported by FWO travel grant_ 
-- **January 2023 - May 2023:** Visiting researcher, NYU Stern
+- January 2023 - May 2023: Visiting researcher, **NYU Stern**
   - _Supported by FWO travel grant_ 
-- **2020:** Intern, Accenture Liquid Studios
+- 2020: Intern, **Accenture Liquid Studios**
   
 ### Education
 - **2019 - 2020:** Master in Artificial Intelligence, KU Leuven
