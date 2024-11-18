@@ -3,7 +3,7 @@ title: Outreach
 ---
 
 
-## Talks
+## Presentations
 
 ### 2025
 **SPSP (Society for Personality and Social Psychology’s Annual Convention)**
