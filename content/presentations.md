@@ -6,10 +6,10 @@ title: Outreach
 ## Presentations
 
 ### 2025
-**SPSP (Society for Personality and Social Psychology’s Annual Convention)**
-Poster session
-_The trade-offs of obscuring your digital footprints_
-Denver, USA
+**SPSP (Society for Personality and Social Psychology’s Annual Convention)** 
+Poster session 
+_The trade-offs of obscuring your digital footprints_ 
+Denver, USA 
 
 ### 2024
 **EURO OSS on Operational Research and Machine Learning**     
@@ -17,10 +17,10 @@ Invited talk
 _K-anonymous counterfactual explanations_    
 Online
 
-**EWAF: European Workshop on Algorithmic Fairness**
-Poster session
-_Reranking individuals_
-Mainz, Germany
+**EWAF: European Workshop on Algorithmic Fairness** 
+Poster session 
+_Reranking individuals_ 
+Mainz, Germany 
 
 **DigiTax Conference**  
 _Panel discussion: Introduction to Explainable AI_  
