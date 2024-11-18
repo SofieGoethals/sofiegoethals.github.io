@@ -13,7 +13,7 @@ Denver, USA
 
 ### 2024
 **EURO OSS on Operational Research and Machine Learning**     
-Invited talk
+Invited talk     
 _K-anonymous counterfactual explanations_    
 Online
 
