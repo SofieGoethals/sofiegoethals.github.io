@@ -6,9 +6,9 @@ title: Outreach
 ## Presentations
 
 ### 2025
-**SPSP (Society for Personality and Social Psychology’s Annual Convention)** 	
-Poster session 	
-_The trade-offs of obscuring your digital footprints_ 	
+**SPSP (Society for Personality and Social Psychology’s Annual Convention)**   	
+Poster session 	 
+_The trade-offs of obscuring your digital footprints_ 	  
 Denver, USA 	
 
 ### 2024
