@@ -22,8 +22,9 @@ Poster session
 _Reranking individuals_ 	   
 Mainz, Germany 	
 
-**DigiTax Conference**  
-_Panel discussion: Introduction to Explainable AI_  
+**DigiTax Conference** 
+Panel discussion   
+_Introduction to Explainable AI_  
 Antwerp, Belgium
 
 **PhD Seminar, Oxford Internet Institute**  
@@ -33,6 +34,7 @@ Oxford, United Kingdom
 ### 2023
 
 **Flanders AI Research Day**  
+Invited talk   
 _Explainability methods to measure discrimination in machine learning models_  
 Mechelen, Belgium
 
