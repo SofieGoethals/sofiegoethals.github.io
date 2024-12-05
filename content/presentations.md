@@ -72,14 +72,17 @@ Espoo, Finland
 
 ### 2024
 
+**[The Conversation](https://theconversation.com/opening-the-black-box-how-explainable-ai-can-help-us-understand-how-algorithms-work-244080)**  
+_ Opening the black box: how ‘Explainable AI’ can help us understand how
+algorithms work_  
+2024
+
 **[Belgisch Financiaal Forum](https://financialforum.be/nl/bfw-digitaal/responsible-ai-in-finance)**  
 _Responsible AI in Finance_  
-2024
 
 ### 2023
 
 **[Harvard Business Review](https://hbr.org/2023/05/ai-can-be-both-accurate-and-transparent)**  
 _AI can be both accurate and transparent_ (featured research)  
-2023
 
 
