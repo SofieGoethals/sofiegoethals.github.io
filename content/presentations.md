@@ -73,7 +73,7 @@ Espoo, Finland
 ### 2024
 
 **[The Conversation](https://theconversation.com/opening-the-black-box-how-explainable-ai-can-help-us-understand-how-algorithms-work-244080)**  
-_ Opening the black box: how ‘Explainable AI’ can help us understand how
+_Opening the black box: how ‘Explainable AI’ can help us understand how
 algorithms work_  
 2024
 
