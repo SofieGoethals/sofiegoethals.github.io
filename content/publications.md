@@ -22,7 +22,7 @@ title: Research
    - [Available online](https://feast-ecmlpkdd.github.io/archive/2021/papers/FEAST2021_paper_7.pdf)
  
 ### Preprints
-- Goethals, S. & Rhue, L. (2024). One world, one opinion?
+- Goethals, S. & Rhue, L. (2024). One world, one opinion? The superstar effect in LLM responses
      - [Available online](https://arxiv.org/pdf/2412.10281)  
 - Goethals, S., Delaney, E., Mittelstadt, B. & Russell, C. (2024).  Resource-constrained fairness.
    - [Available online](https://arxiv.org/pdf/2406.01290)
