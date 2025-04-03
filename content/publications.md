@@ -2,6 +2,9 @@
 title: Research
 ---
 ### Journal Publications
+- Greene, T., Goethals, S., Martens, D. & Shmueli, G. (2025). Monetization Could Corrupt Algorithmic
+Explanations.
+   - [Available online](https://arxiv.org/pdf/2304.06483.pdf)
 - Goethals, S., Matz, S., Provost, F., Martens, D. & Ramon, Y. (2025).  The Impact of Cloaking Digital Footprints on User Privacy and Personalization
    - [Available online](https://www.liebertpub.com/doi/10.1089/big.2024.0036)
 - Goethals, S., Sörensen, K., & Martens, D. (2023). The privacy issue of counterfactual explanations: explanation linkage attacks. ACM Transactions on Intelligent Systems and Technology, 14(5), 1-24.
@@ -31,5 +34,4 @@ title: Research
    - [Available online](https://arxiv.org/pdf/2401.13391)
 - Rhue, L., Goethals, S., & Sundararajan, A. (2024). Evaluating LLMs for Gender Disparities in Notable Persons. 
    - [Available online](https://arxiv.org/pdf/2403.09148.pdf)
-- Greene, T., Goethals, S., Martens, D. & Shmueli, G. (2023). Monetizing Explainable AI: A Double-edged Sword.
-   - [Available online](https://arxiv.org/pdf/2304.06483.pdf)
+
