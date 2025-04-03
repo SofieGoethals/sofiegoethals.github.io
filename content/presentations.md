@@ -28,7 +28,7 @@ _Reranking individuals_
 Mainz, Germany 	
 
 **DigiTax Conference**       
-Panel discussion     
+Panel discussion      
 _Introduction to Explainable AI_  
 Antwerp, Belgium
 
@@ -44,39 +44,39 @@ _Explainability methods to measure discrimination in machine learning models_
 Mechelen, Belgium
 
 **BIAS workshop at ECML: Third Workshop on Bias and Fairness in AI**  
-Accepted presentation
+Accepted presentation  
 _Explainability methods to measure discrimination in machine learning models_  
 Turin, Italy
 
 **XKDD workshop at ECML: International Workshop on Explainable Knowledge Discovery in Data Mining**  
-Accepted presentation
+Accepted presentation  
 _Manipulation Risks in Explainable AI: The Implications of the Disagreement Problem_  
 Turin, Italy
 
 **ECDA: European Conference on Data Analysis**  
-Accepted presentation
+Accepted presentation  
 _The trade-offs of obscuring your digital footprints_  
 Antwerp, Belgium
 
 **EWAF: European Workshop on Algorithmic Fairness**  
-Accepted presentation
+Accepted presentation  
 _Explainability methods to measure discrimination in machine learning models_  
 Winterthur, Switzerland
 
 **ORBEL: 36th Annual Conference of the Belgian Operational Research Society**  
-Accepted presentation
+Accepted presentation  
 _The trade-offs of obscuring your digital footprints_  
 Liege, Belgium
 
 ### 2022
 
 **Doctoral Day, University of Antwerp** 
-Accepted presentation
+Accepted presentation  
 _How counterfactual explanations can be used to detect bias in a machine learning model_  
 Antwerp, Belgium
 
 **EURO: 32th European Conference on Operational Research**  
-Accepted presentation
+Accepted presentation   
 _How counterfactual explanations can be used to detect bias in a machine learning model_  
 Espoo, Finland
 
