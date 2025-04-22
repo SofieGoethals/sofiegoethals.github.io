@@ -7,6 +7,10 @@ title: Outreach
 
 ### 2025
 **C3NLP @ NAACL (3rd Workshop on Cross-Cultural Considerations in NLP)**   
+Panel discussion  
+Albuquerque, USA  
+
+**C3NLP @ NAACL (3rd Workshop on Cross-Cultural Considerations in NLP)**   
 Accepted presentation  
 _One world, one opinion? The superstar effect in LLM responses_   
 Albuquerque, USA  
