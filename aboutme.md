@@ -13,6 +13,14 @@ Hi! My name is Sofie Goethals. I am currently a postdoctoral researcher at Colum
 **March, 2025** ✅ Our paper: [One world, one opinion: The superstar effect in NLP responses](https://aclanthology.org/2025.c3nlp-1.8.pdf) was accepted at the **[C3NLP](https://c3nlp.github.io/#workshop)** workshop.    
 
 
+### Latest News ([See all](/news.html))
+
+{% assign recent_news = site.data.news | slice: 0, 5 %}
+{% for item in recent_news %}
+**{{ item.date | date: "%b %e, %Y" }}** {{ item.emoji }} {{ item.text }}  
+{% endfor %}
+
+
 ### Research Interests
 Trustworthy Machine Learning (Transparency, Fairness, Privacy); Explainable AI; Computational Social Science.
 
