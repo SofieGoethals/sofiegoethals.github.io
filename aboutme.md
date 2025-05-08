@@ -7,10 +7,10 @@ Hi! My name is Sofie Goethals. I am currently a postdoctoral researcher at Colum
 
 ## Latest News 
 **May, 2025** 🗣 Attending the **[Summerschool on Responsible AI and human rights]([https://c3nlp.github.io/#workshop]
-(https://mila.quebec/en/ai4humanity/learning/summer-school-in-responsible-ai-and-human-rights))** workshop!
-**May, 2025** 🗣 Joining as a Panelist in the Selected Papers Authors Panel at the **[C3NLP](https://c3nlp.github.io/#workshop)** workshop!  
-**April, 2025** ✅ Our paper: [Could Monetization Corrupt Algorithmic Explanations](https://arxiv.org/pdf/2304.06483) was accepted in AI & Society! 
-**March, 2025** ✅ Our paper: [One world, one opinion: The superstar effect in NLP responses](https://aclanthology.org/2025.c3nlp-1.8.pdf) was accepted at the **[C3NLP](https://c3nlp.github.io/#workshop)** workshop.   
+(https://mila.quebec/en/ai4humanity/learning/summer-school-in-responsible-ai-and-human-rights))** workshop!  
+**May, 2025** 🗣 Joining as a Panelist in the Selected Papers Authors Panel at the **[C3NLP](https://c3nlp.github.io/#workshop)** workshop!   
+**April, 2025** ✅ Our paper: [Could Monetization Corrupt Algorithmic Explanations](https://arxiv.org/pdf/2304.06483) was accepted in AI & Society!    
+**March, 2025** ✅ Our paper: [One world, one opinion: The superstar effect in NLP responses](https://aclanthology.org/2025.c3nlp-1.8.pdf) was accepted at the **[C3NLP](https://c3nlp.github.io/#workshop)** workshop.    
 
 
 ### Research Interests
