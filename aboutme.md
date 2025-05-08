@@ -5,7 +5,7 @@ subtitle: Sofie Goethals
 ---
 Hi! My name is Sofie Goethals. I am currently a postdoctoral researcher at Columbia Business School, supervised by Professor Sandra Matz. Prior to that, I obtained my PhD in the [Applied Data Mining group](https://admantwerp.github.io/) at the University of Antwerp, supervised by Professor David Martens.
 
-## Latest News 
+###:🔊News 
 **May, 2025** 🏛 Attending the **[Summerschool on Responsible AI and human rights]([https://c3nlp.github.io/#workshop]
 (https://mila.quebec/en/ai4humanity/learning/summer-school-in-responsible-ai-and-human-rights))** workshop!  
 **May, 2025** 🗣 Joining as a Panelist in the Selected Papers Authors Panel at the **[C3NLP](https://c3nlp.github.io/#workshop)** workshop!   
