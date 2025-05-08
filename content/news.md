@@ -3,7 +3,7 @@ layout: default
 title: News
 ---
 
-## All News
+## All news
 
 {% for item in site.data.news %}
 **{{ item.date | date: "%b %e, %Y" }}** {{ item.emoji }} {{ item.text }}  
