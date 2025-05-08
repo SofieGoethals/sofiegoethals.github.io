@@ -24,7 +24,7 @@ navbar-links:
   Research: "content/publications"
   Outreach: "content/presentations"
   #Outreach 2: "content/outreach"
-  #News: "news"
+  News: "content/news"
   
   #Resources:
    # - Beautiful Jekyll: "https://beautifuljekyll.com"
