@@ -6,6 +6,18 @@ title: Outreach
 ## Presentations
 
 ### 2025
+**UMAP (User Modeling and Personlalisation)**   
+Accepted Presentation   
+_Words reveal wants: How well can simple LLM-based AI agents
+replicate people’s choices based on their social media posts_   
+NYC, USA  
+
+**EXUM @ UMAP (Explainable User Models and Personalized Systems)**   
+Accepted Presentation  
+_What If the Prompt Were Different? Counterfactual Explanations
+for the Characteristics of Generative Outputs_  
+NYC, USA  
+
 **C3NLP @ NAACL (3rd Workshop on Cross-Cultural Considerations in NLP)**   
 Panel discussion  
 Albuquerque, USA  
