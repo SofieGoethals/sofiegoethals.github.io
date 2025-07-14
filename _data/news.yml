@@ -14,7 +14,8 @@
 
 - date: "2025-05"
   emoji: "✅"
-  text: "Two papers accepted at [UMAP](https://www.um.org/umap2025/call-for-full-short-papers/)!
+  text: |
+  "Two papers accepted at [UMAP](https://www.um.org/umap2025/call-for-full-short-papers/)!
   [What If the Prompt Were Different? Counterfactual Explanations for the Characteristics of Generative Outputs] (https://dl.acm.org/doi/pdf/10.1145/3708319.3733656)
   [Words reveal wants: How well can simple LLM-based AI agents replicate people’s choices based on their social media posts] (https://dl.acm.org/doi/pdf/10.1145/3708319.3733689)"
 
@@ -35,6 +36,6 @@
   emoji: "✅"
   text: "Our paper: [One world, one opinion: The superstar effect in NLP responses](https://aclanthology.org/2025.c3nlp-1.8.pdf) was accepted at the [C3NLP](https://c3nlp.github.io/#workshop) workshop."
 
-  - date: "2025-01"
+- date: "2025-01"
   emoji: "📄"
   text: "Our paper: [The Impact of Cloaking Digital Footprints on User Privacy and Personalization](https://www.liebertpub.com/doi/10.1089/big.2024.0036) was published in *Big Data*!"
