@@ -86,8 +86,8 @@ Liege, Belgium
 
 ### 2022
 
-**Doctoral Day, University of Antwerp** 
-Accepted presentation  
+**Doctoral Day, University of Antwerp**     
+Accepted presentation   
 _How counterfactual explanations can be used to detect bias in a machine learning model_  
 Antwerp, Belgium
 
