@@ -2,6 +2,8 @@
 title: Research
 ---
 ### Journal Publications
+- Rhue, L., Goethals, S., & Sundararajan, A. (2025). Fairness Principles Across Contexts: Evaluating
+Gender Disparities of Facts and Opinions in Large Language Models. AI & Ethics.
 - Greene, T., Goethals, S., Martens, D. & Shmueli, G. (2025). Monetization Could Corrupt Algorithmic
 Explanations. AI & Society. 
    - [Available online](https://link.springer.com/article/10.1007/s00146-025-02352-4)
@@ -31,15 +33,15 @@ Explanations. AI & Society.
    - [Available online](https://feast-ecmlpkdd.github.io/archive/2021/papers/FEAST2021_paper_7.pdf)
  
 ### Preprints
-
+- Matz, S., Horton, B. & Goethals, S. (2025). The Basic B*** Effect: The Use of LLM-based Agents Reduces the Distinctiveness and Diversity of People's Choices
+  - [Available online](https://arxiv.org/pdf/2509.02910)
 - Cedro, M., Ichmoukhamedo, T. , Goethals, S., He, Y., Hinns, J. & Martens, D. (2025).  Cash or Comfort? How LLMs Value Your Inconvenience
    - [Available online](https://arxiv.org/pdf/2506.17367)
 - Martens, D., Shmueli, G., Evgeniou, T., Bauer, K., Janiesch, C., Feuerriegel, S., ... & Provost, F. (2025). Beware of" explanations" of AI. 
    - [Available online](https://arxiv.org/pdf/2504.06791?)
 - Goethals, S., Delaney, E., Mittelstadt, B. & Russell, C. (2024).  Resource-constrained fairness.
    - [Available online](https://arxiv.org/pdf/2406.01290)
-- Goethals, S. & Calders, T.  (2024).  Reranking individuals: The effect of fair classification within-groups.
+- Goethals, S., Favier, M. & Calders, T.  (2024).  Reranking individuals: The effect of fair classification within-groups.
    - [Available online](https://arxiv.org/pdf/2401.13391)
-- Rhue, L., Goethals, S., & Sundararajan, A. (2024). Evaluating LLMs for Gender Disparities in Notable Persons. 
-   - [Available online](https://arxiv.org/pdf/2403.09148.pdf)
+
 
