@@ -3,7 +3,7 @@ layout: page
 title: About me
 subtitle: Sofie Goethals
 ---
-Hi! My name is Sofie Goethals. I am currently a postdoctoral researcher at Columbia Business School, supervised by Professor Sandra Matz. Prior to that, I obtained my PhD in the [Applied Data Mining group](https://admantwerp.github.io/) at the University of Antwerp, supervised by Professor David Martens.
+Hi! My name is Sofie Goethals. I am currently an Associate Professor at the University of Antwerp. Prior to that, I obtained my PhD in the [Applied Data Mining group](https://admantwerp.github.io/) at the University of Antwerp, supervised by Professor David Martens, and was a postdoctoral researcher at Columbia Business School, supervised by Professor Sandra Matz
 
 
 
@@ -19,7 +19,8 @@ Hi! My name is Sofie Goethals. I am currently a postdoctoral researcher at Colum
 Trustworthy Machine Learning (Transparency, Fairness, Privacy); Explainable AI; Computational Social Science.
 
 ### Employment
-- September 2024 - September 2025: Postdoctoral researcher, **Columbia Business School**
+- November 2025 - Present: Associate Professor, **University of Antwerp**    
+- October 2024 - October 2025: Postdoctoral researcher, **Columbia Business School**
   - _Supported by FWO postdoctoral fellowship, BAEF and Fulbright_
 - September 2020 - September 2024: PhD researcher, **University of Antwerp**
   - _Supported by FWO doctoral fellowship_   
