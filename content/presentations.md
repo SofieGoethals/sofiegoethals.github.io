@@ -6,7 +6,7 @@ title: Outreach
 ## Presentations
 
 ### 2025
-**UMAP (User Modeling and Personlalisation)**   
+**UMAP (User Modeling and Personalisation)**   
 Accepted Presentation   
 _Words reveal wants: How well can simple LLM-based AI agents
 replicate people’s choices based on their social media posts_   
