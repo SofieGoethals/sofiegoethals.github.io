@@ -3,7 +3,7 @@ layout: page
 title: About me
 subtitle: Sofie Goethals
 ---
-Hi! My name is Sofie Goethals. I am currently an Associate Professor at the University of Antwerp. Prior to that, I obtained my PhD in the [Applied Data Mining group](https://admantwerp.github.io/) at the University of Antwerp, supervised by Professor David Martens, and was a postdoctoral researcher at Columbia Business School, supervised by Professor Sandra Matz
+Hi! My name is Sofie Goethals. I am currently an Assistant Professor at the University of Antwerp. Prior to that, I obtained my PhD in the [Applied Data Mining group](https://admantwerp.github.io/) at the University of Antwerp, supervised by Professor David Martens, and was a postdoctoral researcher at Columbia Business School, supervised by Professor Sandra Matz
 
 
 
