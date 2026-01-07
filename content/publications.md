@@ -2,7 +2,7 @@
 title: Research
 ---
 ### Journal Publications
-- Rhue, L., Goethals, S., & Sundararajan, A. (2025). Fairness Principles Across Contexts: Evaluating
+- Rhue, L., Goethals, S., & Sundararajan, A. (2026). Fairness Principles Across Contexts: Evaluating
 Gender Disparities of Facts and Opinions in Large Language Models. AI & Ethics.
    - [Available online](https://link.springer.com/article/10.1007/s43681-025-00876-5)
 - Greene, T., Goethals, S., Martens, D. & Shmueli, G. (2025). Monetization Could Corrupt Algorithmic
