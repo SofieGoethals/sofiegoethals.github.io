@@ -1,0 +1,43 @@
+name: Update Google Scholar Publications
+
+on:
+  schedule:
+    # Run every Monday at 06:00 UTC
+    - cron: "0 6 * * 1"
+  workflow_dispatch:   # allow manual trigger from GitHub Actions tab
+
+jobs:
+  update-publications:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install scholarly pyyaml
+
+      - name: Run scholar scraper
+        run: python scripts/update_publications.py
+        # Failure here doesn't break the site — the existing YAML stays in place
+        continue-on-error: true
+
+      - name: Commit updated publications (if changed)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _data/scholar_pubs.yml
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update Google Scholar publications [automated]"
+            git push
+          fi

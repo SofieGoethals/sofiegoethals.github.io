@@ -1,0 +1,424 @@
+/* ============================================================
+   Custom styles for Sofie Goethals' academic website
+   ============================================================ */
+
+/* --- Fonts --- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
+/* --- Root variables --- */
+:root {
+  --navy:    #1a2b4a;
+  --teal:    #0d9488;
+  --teal-light: #14b8a6;
+  --accent:  #f59e0b;
+  --light-bg: #f8fafc;
+  --card-bg:  #ffffff;
+  --border:   #e2e8f0;
+  --text:     #334155;
+  --muted:    #64748b;
+  --radius:   0.75rem;
+  --shadow:   0 1px 3px rgba(0,0,0,0.08), 0 4px 12px rgba(0,0,0,0.06);
+  --shadow-hover: 0 4px 12px rgba(0,0,0,0.12), 0 8px 24px rgba(0,0,0,0.08);
+}
+
+/* --- Base typography --- */
+body {
+  font-family: 'Inter', 'Open Sans', sans-serif;
+  color: var(--text);
+  background-color: var(--light-bg);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  color: var(--navy);
+}
+
+p {
+  line-height: 1.75;
+  color: var(--text);
+}
+
+a {
+  color: var(--teal);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover, a:focus {
+  color: var(--teal-light);
+}
+
+/* --- Navbar --- */
+.navbar-custom {
+  background-color: var(--navy) !important;
+  border-bottom: none !important;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+  color: #e2e8f0 !important;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-nav .nav-link:hover,
+.navbar-custom .navbar-nav .nav-link:focus {
+  color: var(--teal-light) !important;
+}
+.navbar-custom .nav-item.dropdown .dropdown-menu {
+  background-color: var(--navy) !important;
+}
+.navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
+  background-color: var(--navy) !important;
+  color: #e2e8f0 !important;
+}
+.navbar-custom .navbar-toggler {
+  border-color: rgba(255,255,255,0.2);
+}
+.navbar-custom .navbar-toggler-icon {
+  filter: invert(1);
+}
+
+/* --- Header / intro section --- */
+.intro-header {
+  background: linear-gradient(135deg, var(--navy) 0%, #2d4a7a 60%, #1e5470 100%);
+  color: white;
+}
+.intro-header .page-heading,
+.intro-header .post-heading {
+  color: white;
+}
+.intro-header h1 {
+  color: white;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+.intro-header .page-subheading {
+  color: rgba(255,255,255,0.82);
+  font-weight: 400;
+  font-size: 1.2rem;
+  letter-spacing: 0.01em;
+}
+
+/* --- Page content area --- */
+.container-md .row .col-xl-8,
+.container-md .row .col-lg-9 {
+  background-color: var(--card-bg);
+}
+
+/* --- Main content card --- */
+.main-content-inner {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 2.5rem 3rem;
+  margin-top: -2rem;
+  position: relative;
+  z-index: 1;
+}
+
+/* --- Section headings --- */
+.page-content h3 {
+  color: var(--navy);
+  border-bottom: 2px solid var(--teal);
+  padding-bottom: 0.4rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem;
+  display: inline-block;
+  padding-right: 1rem;
+}
+
+/* --- Publication entries --- */
+.pub-entry {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--teal);
+  border-radius: var(--radius);
+  padding: 1.1rem 1.4rem;
+  margin-bottom: 1rem;
+  transition: box-shadow 0.2s, transform 0.2s;
+  position: relative;
+}
+.pub-entry:hover {
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-2px);
+}
+.pub-entry p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text);
+}
+.pub-entry .pub-venue {
+  font-size: 0.85rem;
+  color: var(--muted);
+  font-style: italic;
+  margin-top: 0.25rem;
+}
+
+/* --- Publication link badges --- */
+.pub-links {
+  margin-top: 0.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.pub-link-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  transition: all 0.2s;
+  text-decoration: none !important;
+  border: 1px solid transparent;
+}
+.pub-link-badge:hover {
+  text-decoration: none !important;
+  transform: translateY(-1px);
+}
+.badge-pdf {
+  background: #fee2e2;
+  color: #b91c1c;
+  border-color: #fca5a5;
+}
+.badge-pdf:hover { background: #fecaca; color: #991b1b; }
+.badge-doi {
+  background: #dbeafe;
+  color: #1d4ed8;
+  border-color: #93c5fd;
+}
+.badge-doi:hover { background: #bfdbfe; color: #1e40af; }
+.badge-arxiv {
+  background: #fef3c7;
+  color: #b45309;
+  border-color: #fcd34d;
+}
+.badge-arxiv:hover { background: #fde68a; color: #92400e; }
+.badge-link {
+  background: #d1fae5;
+  color: #065f46;
+  border-color: #6ee7b7;
+}
+.badge-link:hover { background: #a7f3d0; color: #064e3b; }
+.badge-acl {
+  background: #ede9fe;
+  color: #5b21b6;
+  border-color: #c4b5fd;
+}
+.badge-acl:hover { background: #ddd6fe; color: #4c1d95; }
+
+/* --- Research interest tags --- */
+.research-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+.research-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.35rem 0.9rem;
+  background: linear-gradient(135deg, #e0f2fe, #dbeafe);
+  color: var(--navy);
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  border: 1px solid #bfdbfe;
+}
+
+/* --- Teaching course cards --- */
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+.course-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.6rem;
+  box-shadow: var(--shadow);
+  transition: box-shadow 0.2s, transform 0.2s;
+  position: relative;
+  overflow: hidden;
+}
+.course-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--teal), var(--accent));
+}
+.course-card:hover {
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-3px);
+}
+.course-card .course-icon {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  display: block;
+}
+.course-card h4 {
+  color: var(--navy);
+  font-size: 1.05rem;
+  margin-bottom: 0.4rem;
+  margin-top: 0;
+}
+.course-card .course-level {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  background: #e0f2fe;
+  color: #0369a1;
+  margin-bottom: 0.75rem;
+}
+.course-card p {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin: 0;
+  line-height: 1.6;
+}
+.course-card .course-meta {
+  margin-top: 1rem;
+  font-size: 0.82rem;
+  color: var(--muted);
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.course-card .course-meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+/* --- News section --- */
+.news-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.news-list li {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+.news-list li:last-child { border-bottom: none; }
+.news-date {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--teal);
+  background: #e0f7f4;
+  padding: 0.1rem 0.5rem;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+  font-variant-numeric: tabular-nums;
+}
+
+/* --- Homepage hero profile --- */
+.profile-hero {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+.profile-hero img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid var(--teal);
+  box-shadow: 0 4px 20px rgba(13, 148, 136, 0.25);
+  flex-shrink: 0;
+}
+.profile-hero-text h2 {
+  margin-top: 0;
+  color: var(--navy);
+}
+
+/* --- Footer --- */
+footer {
+  background-color: var(--navy) !important;
+  color: #94a3b8;
+}
+footer p.text-muted {
+  color: #94a3b8 !important;
+}
+footer a {
+  color: #cbd5e1 !important;
+}
+footer a:hover, footer a:focus {
+  color: var(--teal-light) !important;
+}
+
+/* --- Stat/highlight boxes on homepage --- */
+.stat-row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 1.5rem 0;
+}
+.stat-box {
+  flex: 1;
+  min-width: 130px;
+  background: linear-gradient(135deg, var(--navy), #2d4a7a);
+  color: white;
+  border-radius: var(--radius);
+  padding: 1.1rem 1.2rem;
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+.stat-box .stat-num {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--teal-light);
+  line-height: 1;
+}
+.stat-box .stat-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.85;
+  margin-top: 0.3rem;
+}
+
+/* --- Publication section headers --- */
+.pub-section-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.pub-section-title::after {
+  content: '';
+  flex: 1;
+  height: 2px;
+  background: linear-gradient(90deg, var(--teal), transparent);
+  margin-left: 0.5rem;
+}
+
+/* --- Responsive tweaks --- */
+@media (max-width: 768px) {
+  .profile-hero { flex-direction: column; align-items: center; text-align: center; }
+  .courses-grid { grid-template-columns: 1fr; }
+  .stat-row { flex-direction: column; }
+  .main-content-inner { padding: 1.5rem; }
+}
