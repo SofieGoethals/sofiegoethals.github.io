@@ -12,7 +12,8 @@ My research sits at the intersection of **machine learning**, **ethics**, and **
   <span class="research-tag"><i class="fas fa-users"></i> Computational Social Science</span>
 </div>
 
-A central thread in my work is **counterfactual explanations** — "what would need to change for a different outcome?" — and how they can be used to audit models for bias, quantify privacy risks, and provide actionable recourse to individuals. More recently I have been studying **LLM-based AI agents** and their societal implications: do they homogenise our choices? Do their explanations reflect genuine reasoning or can they be manipulated?
+A central thread in my work is **counterfactual explanations**: "what would need to change for a different outcome?" — and how they can be used to audit models for bias, quantify privacy risks, and provide actionable recourse to individuals. 
+More recently I have been studying **LLM-based AI agents** and their societal implications: do they homogenise our choices? Can we derive their decision boundaries? Can they lead to privacy leakage?
 
 <p style="color: var(--text-muted); margin-top: 1rem; font-size:0.9rem;">
   <i class="fas fa-graduation-cap"></i>
@@ -24,9 +25,10 @@ A central thread in my work is **counterfactual explanations** — "what would n
 ---
 
 <div class="pub-section-title"><i class="fas fa-book-open"></i> Journal Publications</div>
+<!-- BEGIN:journal -->
 
 <div class="pub-entry">
-<p><strong>Rhue, L., Goethals, S., & Sundararajan, A.</strong> (2026). Fairness Principles Across Contexts: Evaluating Gender Disparities of Facts and Opinions in Large Language Models. <em>AI &amp; Ethics</em>.</p>
+<p><strong> Goethals, S., Rhue, L., & Sundararajan, A.</strong> (2026). Fairness Principles Across Contexts: Evaluating Gender Disparities of Facts and Opinions in Large Language Models. <em>AI &amp; Ethics</em>.</p>
 <div class="pub-links">
   <a class="pub-link-badge badge-doi" href="https://link.springer.com/article/10.1007/s43681-025-00876-5" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
 </div>
