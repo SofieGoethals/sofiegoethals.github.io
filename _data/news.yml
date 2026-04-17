@@ -3,8 +3,13 @@
   text: "Our paper [Reranking individuals: The effect of fair classification within-groups](https://dl.acm.org/doi/abs/10.1145/3802540) is published in the *ACM Journal on Responsible Computing*!"
 
 - date: "2026-01"
+  emoji: "🗣""
+  text: "Presenting our work Adapting Multiverse Analysis for Prediction: A Decision-Maker’s Dashboard at [AAAI Workshops](https://openreview.net/pdf?id=fzt5SvBx1E)!"
+
+- date: "2026-01"
   emoji: "📄"
   text: "Our paper: Fairness Principles Across Contexts: Evaluating Gender Disparities of Facts and Opinions in Large Language Models is published in [*AI and Ethics*](https://link.springer.com/article/10.1007/s43681-025-00876-5)!"
+
 
 - date: "2025-06"
   emoji: "📄"

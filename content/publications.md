@@ -12,7 +12,7 @@ My research sits at the intersection of **machine learning**, **ethics**, and **
   <span class="research-tag"><i class="fas fa-users"></i> Computational Social Science</span>
 </div>
 
-A central thread in my work is **counterfactual explanations**: "what would need to change for a different outcome?" — and how they can be used to audit models for bias, quantify privacy risks, and provide actionable recourse to individuals. 
+One area of my work corresponds to **counterfactual explanations**: "what would need to change for a different outcome?" — and how they can be used to audit models for bias, quantify privacy risks, and provide actionable recourse to individuals. 
 More recently I have been studying **LLM-based AI agents** and their societal implications: do they homogenise our choices? Can we derive their decision boundaries? Can they lead to privacy leakage?
 
 <p style="color: var(--text-muted); margin-top: 1rem; font-size:0.9rem;">
@@ -90,6 +90,10 @@ More recently I have been studying **LLM-based AI agents** and their societal im
 <div class="pub-section-title"><i class="fas fa-users"></i> Conference Publications</div>
 
 <div class="pub-entry">
+<p><strong>Ding, F., Shmueli, G., Greene, T. & Goethals, S.</strong> (2026). Adapting Multiverse Analysis for Prediction: A Decision-Maker's Dashboard. <em>Navigating the Model Uncertainty and the Rashomon Effect: From Theory and Tools to Applications and Impact</em>.</p>
+</div>
+
+<div class="pub-entry">
 <p><strong>Goethals, S., Sedoc, J., & Provost, F.</strong> (2025). What If the Prompt Were Different? Counterfactual Explanations for the Characteristics of Generative Outputs. <em>Adjunct Proceedings of UMAP 2025</em>, pp. 237–242.</p>
 <div class="pub-links">
   <a class="pub-link-badge badge-pdf" href="https://dl.acm.org/doi/pdf/10.1145/3708319.3733656" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
@@ -133,6 +137,8 @@ More recently I have been studying **LLM-based AI agents** and their societal im
 </div>
 </div>
 
+
+
 <!-- SYNC:conference -->
 
 ---
@@ -168,6 +174,30 @@ More recently I have been studying **LLM-based AI agents** and their societal im
 <div class="pub-links">
   <a class="pub-link-badge badge-arxiv" href="https://arxiv.org/abs/2406.01290" target="_blank"><i class="fas fa-archive"></i> arXiv</a>
   <a class="pub-link-badge badge-pdf" href="https://arxiv.org/pdf/2406.01290" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
+</div>
+</div>
+
+<div class="pub-entry">
+<p><strong>Reusens, M., Goethals, S., Calders, T. & Martens, D.</strong> (2026). Would a Large Language Model Pay Extra for a View? Inferring Willingness to Pay from Subjective Choices.</p>
+<div class="pub-links">
+  <a class="pub-link-badge badge-arxiv" href="https://arxiv.org/abs/2602.09802" target="_blank"><i class="fas fa-archive"></i> arXiv</a>
+  <a class="pub-link-badge badge-pdf" href="https://arxiv.org/pdf/2602.09802" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
+</div>
+</div>
+
+<div class="pub-entry">
+<p><strong>Goethals, S., Provost, F. & Sedoc, J.</strong> (2026). Prompt-Counterfactual Explanations for Generative AI System Behavior.</p>
+<div class="pub-links">
+  <a class="pub-link-badge badge-arxiv" href="https://arxiv.org/abs/2601.03156" target="_blank"><i class="fas fa-archive"></i> arXiv</a>
+  <a class="pub-link-badge badge-pdf" href="https://arxiv.org/pdf/2601.03156" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
+</div>
+</div>
+
+<div class="pub-entry">
+<p><strong>Hinns, J., Goethals, S., Van der Veeken, S., Evgeniou, T. & Martens, D.</strong> (2026). On the Definition and Detection of Cherry-Picking in Counterfactual Explanations.</p>
+<div class="pub-links">
+  <a class="pub-link-badge badge-arxiv" href="https://arxiv.org/abs/2601.04977" target="_blank"><i class="fas fa-archive"></i> arXiv</a>
+  <a class="pub-link-badge badge-pdf" href="https://arxiv.org/pdf/2601.04977" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
 </div>
 </div>
 
