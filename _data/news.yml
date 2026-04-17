@@ -1,45 +1,49 @@
-- date: "2025-10"
-  emoji: "📄"
-  text: "Our paper: Fairness Principles Across Contexts: Evaluating
-Gender Disparities of Facts and Opinions in Large Language Models is accepted in [*AI and Ethics*](https://link.springer.com/article/10.1007/s43681-025-00876-5)!"
-
-- date: "2025-06"
-  emoji: "📄"
-  text: "New paper: [Cash or Comfort? How LLMs value your inconvenience](https://arxiv.org/pdf/2506.17367)!"
-
-
-- date: "2025-06"
-  emoji: "🧑‍💼"
-  text: "Joining [UMAP 2026](https://www.um.org/umap2026/) as Proceedings Chair!"
-
-- date: "2025-05"
-  emoji: "🏛"
-  text: "Attending the [Summerschool on Responsible AI and human rights](https://mila.quebec/en/ai4humanity/learning/summer-school-in-responsible-ai-and-human-rights) at Mila in Montreal, Canada!"
-
-- date: "2025-05"
-  emoji: "✅"
-  text: |
-    Two papers accepted at [UMAP 2025](https://www.um.org/umap2025/call-for-full-short-papers/)!       
-    [What If the Prompt Were Different? Counterfactual Explanations for the Characteristics of Generative Outputs](https://dl.acm.org/doi/pdf/10.1145/3708319.3733656)       
-    [Words reveal wants: How well can simple LLM-based AI agents replicate people’s choices based on their social media posts](https://dl.acm.org/doi/pdf/10.1145/3708319.3733689)
-
-- date: "2025-05"
-  emoji: "🗣"
-  text: "Joining as a Panelist in the Selected Papers Authors Panel at the [C3NLP](https://c3nlp.github.io/#workshop) workshop!"
-
-- date: "2025-05"
-  emoji: "📄"
-  text: "Our paper: [Could Monetization Corrupt Algorithmic Explanations?](https://link.springer.com/article/10.1007/s00146-025-02352-4) was published in *AI & Society*!"
-
-- date: "2025-04"
-  emoji: "📄"
-  text: "New paper: [Beware of 'Explanations' of AI](https://arxiv.org/pdf/2504.06791)!"
-
-
-- date: "2025-03"
-  emoji: "✅"
-  text: "Our paper: [One world, one opinion: The superstar effect in NLP responses](https://aclanthology.org/2025.c3nlp-1.8.pdf) was accepted at the [C3NLP](https://c3nlp.github.io/#workshop) workshop."
-
-- date: "2025-01"
-  emoji: "📄"
-  text: "Our paper: [The Impact of Cloaking Digital Footprints on User Privacy and Personalization](https://www.liebertpub.com/doi/10.1089/big.2024.0036) was published in *Big Data*!"
+- date: 2024-04
+  emoji: 📄
+  text: 'New publication: [Resource-constrained Fairness](https://doi.org/10.48550/arXiv.2406.01290) in *arXiv.org*!'
+- date: 2024-04
+  emoji: 📄
+  text: 'New publication: [Evaluating LLMs for Gender Disparities in Notable Persons](https://doi.org/10.48550/arXiv.2403.09148)
+    in *arXiv.org*!'
+- date: 2025-04
+  emoji: 📄
+  text: 'New publication: [The Basic B*** Effect: The Use of LLM-based Agents Reduces the Distinctiveness and Diversity of
+    People''s Choices](https://doi.org/10.48550/arXiv.2509.02910) in *arXiv.org*!'
+- date: 2025-10
+  emoji: 📄
+  text: 'Our paper: Fairness Principles Across Contexts: Evaluating Gender Disparities of Facts and Opinions in Large Language
+    Models is accepted in [*AI and Ethics*](https://link.springer.com/article/10.1007/s43681-025-00876-5)!'
+- date: 2025-06
+  emoji: 📄
+  text: 'New paper: [Cash or Comfort? How LLMs value your inconvenience](https://arxiv.org/pdf/2506.17367)!'
+- date: 2025-06
+  emoji: 🧑‍💼
+  text: Joining [UMAP 2026](https://www.um.org/umap2026/) as Proceedings Chair!
+- date: 2025-05
+  emoji: 🏛
+  text: Attending the [Summerschool on Responsible AI and human rights](https://mila.quebec/en/ai4humanity/learning/summer-school-in-responsible-ai-and-human-rights)
+    at Mila in Montreal, Canada!
+- date: 2025-05
+  emoji: ✅
+  text: "Two papers accepted at [UMAP 2025](https://www.um.org/umap2025/call-for-full-short-papers/)!       \n[What If the\
+    \ Prompt Were Different? Counterfactual Explanations for the Characteristics of Generative Outputs](https://dl.acm.org/doi/pdf/10.1145/3708319.3733656)\
+    \       \n[Words reveal wants: How well can simple LLM-based AI agents replicate people’s choices based on their social\
+    \ media posts](https://dl.acm.org/doi/pdf/10.1145/3708319.3733689)\n"
+- date: 2025-05
+  emoji: 🗣
+  text: Joining as a Panelist in the Selected Papers Authors Panel at the [C3NLP](https://c3nlp.github.io/#workshop) workshop!
+- date: 2025-05
+  emoji: 📄
+  text: 'Our paper: [Could Monetization Corrupt Algorithmic Explanations?](https://link.springer.com/article/10.1007/s00146-025-02352-4)
+    was published in *AI & Society*!'
+- date: 2025-04
+  emoji: 📄
+  text: 'New paper: [Beware of ''Explanations'' of AI](https://arxiv.org/pdf/2504.06791)!'
+- date: 2025-03
+  emoji: ✅
+  text: 'Our paper: [One world, one opinion: The superstar effect in NLP responses](https://aclanthology.org/2025.c3nlp-1.8.pdf)
+    was accepted at the [C3NLP](https://c3nlp.github.io/#workshop) workshop.'
+- date: 2025-01
+  emoji: 📄
+  text: 'Our paper: [The Impact of Cloaking Digital Footprints on User Privacy and Personalization](https://www.liebertpub.com/doi/10.1089/big.2024.0036)
+    was published in *Big Data*!'
