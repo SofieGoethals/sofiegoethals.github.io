@@ -14,7 +14,7 @@ My research sits at the intersection of **machine learning**, **ethics**, and **
 
 A central thread in my work is **counterfactual explanations** — "what would need to change for a different outcome?" — and how they can be used to audit models for bias, quantify privacy risks, and provide actionable recourse to individuals. More recently I have been studying **LLM-based AI agents** and their societal implications: do they homogenise our choices? Do their explanations reflect genuine reasoning or can they be manipulated?
 
-<p style="color: var(--muted); margin-top: 1rem; font-size:0.9rem;">
+<p style="color: var(--text-muted); margin-top: 1rem; font-size:0.9rem;">
   <i class="fas fa-graduation-cap"></i>
   Also on <a href="https://scholar.google.com/citations?user=3yM14pcAAAAJ&hl=en" target="_blank">Google Scholar</a>
   &nbsp;·&nbsp;
@@ -29,6 +29,13 @@ A central thread in my work is **counterfactual explanations** — "what would n
 <p><strong>Rhue, L., Goethals, S., & Sundararajan, A.</strong> (2026). Fairness Principles Across Contexts: Evaluating Gender Disparities of Facts and Opinions in Large Language Models. <em>AI &amp; Ethics</em>.</p>
 <div class="pub-links">
   <a class="pub-link-badge badge-doi" href="https://link.springer.com/article/10.1007/s43681-025-00876-5" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
+</div>
+</div>
+
+<div class="pub-entry">
+<p><strong>Goethals, S., Favier, M. & Calders, T.</strong> (2026). Reranking individuals: The effect of fair classification within-groups. <em>ACM Journal on Responsible Computing</em>, 3(2), 1–27.</p>
+<div class="pub-links">
+  <a class="pub-link-badge badge-doi" href="https://dl.acm.org/doi/abs/10.1145/3802540" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
 </div>
 </div>
 
@@ -97,7 +104,7 @@ A central thread in my work is **counterfactual explanations** — "what would n
 <div class="pub-entry">
 <p><strong>Goethals, S. & Rhue, L.</strong> (2025). One world, one opinion? The superstar effect in LLM responses. <em>Proceedings of the 2nd Workshop on Cross-Cultural Considerations in NLP (C3NLP @ NAACL)</em>.</p>
 <div class="pub-links">
-  <a class="pub-link-badge badge-acl" href="https://aclanthology.org/2025.c3nlp-1.pdf#page=100" target="_blank"><i class="fas fa-file-pdf"></i> ACL Anthology</a>
+  <a class="pub-link-badge badge-acl" href="https://aclanthology.org/2025.c3nlp-1.8.pdf" target="_blank"><i class="fas fa-file-pdf"></i> ACL Anthology</a>
 </div>
 </div>
 
@@ -158,26 +165,18 @@ A central thread in my work is **counterfactual explanations** — "what would n
 </div>
 </div>
 
-<div class="pub-entry">
-<p><strong>Goethals, S., Favier, M. & Calders, T.</strong> (2024). Reranking individuals: The effect of fair classification within-groups.</p>
-<div class="pub-links">
-  <a class="pub-link-badge badge-arxiv" href="https://arxiv.org/abs/2401.13391" target="_blank"><i class="fas fa-archive"></i> arXiv</a>
-  <a class="pub-link-badge badge-pdf" href="https://arxiv.org/pdf/2401.13391" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
-</div>
-</div>
-
 ---
 
 {% if site.data.scholar_pubs.publications.size > 0 %}
-<div class="pub-section-title"><i class="fas fa-sync-alt"></i> Auto-synced from Google Scholar <small style="font-size:0.7rem; font-weight:400; color:var(--muted);">Last updated: {{ site.data.scholar_pubs.last_updated }}</small></div>
+<div class="pub-section-title"><i class="fas fa-sync-alt"></i> Auto-synced from Semantic Scholar <small style="font-size:0.7rem; font-weight:400; color:var(--text-muted);">Last updated: {{ site.data.scholar_pubs.last_updated }}</small></div>
 
 {% for pub in site.data.scholar_pubs.publications %}
 <div class="pub-entry">
 <p><strong>{{ pub.authors }}</strong> {% if pub.year %}({{ pub.year }}){% endif %}. {{ pub.title }}{% if pub.venue %}. <em>{{ pub.venue }}</em>{% endif %}.</p>
-{% if pub.citations > 0 %}<div class="pub-venue">{{ pub.citations }} citations</div>{% endif %}
+{% if pub.citations > 0 %}<p class="pub-venue">{{ pub.citations }} citations</p>{% endif %}
 <div class="pub-links">
   {% if pub.url %}<a class="pub-link-badge badge-doi" href="{{ pub.url }}" target="_blank"><i class="fas fa-external-link-alt"></i> View</a>{% endif %}
-  {% if pub.eprint %}<a class="pub-link-badge badge-pdf" href="{{ pub.eprint }}" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>{% endif %}
+  {% if pub.pdf_url %}<a class="pub-link-badge badge-pdf" href="{{ pub.pdf_url }}" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>{% endif %}
 </div>
 </div>
 {% endfor %}

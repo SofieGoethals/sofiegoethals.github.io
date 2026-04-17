@@ -32,7 +32,7 @@ title: Outreach
 <p><strong>C3NLP @ NAACL — 3rd Workshop on Cross-Cultural Considerations in NLP</strong> &nbsp;<span class="pub-venue">Albuquerque, USA</span></p>
 <p class="pub-venue">Accepted presentation · <em>One world, one opinion? The superstar effect in LLM responses</em></p>
 <div class="pub-links">
-  <a class="pub-link-badge badge-acl" href="https://aclanthology.org/2025.c3nlp-1.pdf#page=100" target="_blank"><i class="fas fa-file-pdf"></i> ACL Anthology</a>
+  <a class="pub-link-badge badge-acl" href="https://aclanthology.org/2025.c3nlp-1.8.pdf" target="_blank"><i class="fas fa-file-pdf"></i> ACL Anthology</a>
 </div>
 </div>
 
