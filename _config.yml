@@ -125,7 +125,7 @@ edit_page_button: false
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "Sofie Goethals, Explainable AI, XAI, Trustworthy Machine Learning, Algorithmic Fairness, Privacy, Counterfactual Explanations, LLM, University of Antwerp, AI Ethics"
 
 ######################################
 # --- Colours / background image --- #
@@ -168,6 +168,7 @@ site-css:
 #################################
 
 # Fill in your Google Analytics tag ID (or "Measurement ID") to track your website usage
+# Replace G-XXXXXXXXXX with your actual GA4 Measurement ID from analytics.google.com
 #gtag: "G-XXXXXXXXXX"
 
 # Fill in your Cloudflare Analytics beacon token to track your website using Cloudflare Analytics

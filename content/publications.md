@@ -2,7 +2,19 @@
 title: Research
 ---
 
-<p style="color: var(--muted); margin-top: -0.5rem;">
+My research sits at the intersection of **machine learning**, **ethics**, and **society**. I study how we can build AI systems that are not only accurate, but also transparent, fair, and privacy-preserving — and what happens when these goals conflict with each other or with commercial incentives.
+
+<div class="research-tags" style="margin: 1rem 0 1.5rem;">
+  <span class="research-tag"><i class="fas fa-search"></i> Explainable AI</span>
+  <span class="research-tag"><i class="fas fa-balance-scale"></i> Algorithmic Fairness</span>
+  <span class="research-tag"><i class="fas fa-lock"></i> Privacy</span>
+  <span class="research-tag"><i class="fas fa-robot"></i> Large Language Models</span>
+  <span class="research-tag"><i class="fas fa-users"></i> Computational Social Science</span>
+</div>
+
+A central thread in my work is **counterfactual explanations** — "what would need to change for a different outcome?" — and how they can be used to audit models for bias, quantify privacy risks, and provide actionable recourse to individuals. More recently I have been studying **LLM-based AI agents** and their societal implications: do they homogenise our choices? Do their explanations reflect genuine reasoning or can they be manipulated?
+
+<p style="color: var(--muted); margin-top: 1rem; font-size:0.9rem;">
   <i class="fas fa-graduation-cap"></i>
   Also on <a href="https://scholar.google.com/citations?user=3yM14pcAAAAJ&hl=en" target="_blank">Google Scholar</a>
   &nbsp;·&nbsp;

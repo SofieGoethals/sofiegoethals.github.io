@@ -80,8 +80,12 @@ a:hover, a:focus {
 }
 
 /* --- Header / intro section --- */
-.intro-header {
+/* Apply gradient to .header-section (wraps .intro-header) so it covers
+   the 5rem top-margin gap that .intro-header leaves for the fixed navbar */
+.header-section {
   background: linear-gradient(135deg, var(--navy) 0%, #2d4a7a 60%, #1e5470 100%);
+}
+.intro-header {
   color: white;
 }
 .intro-header .page-heading,
