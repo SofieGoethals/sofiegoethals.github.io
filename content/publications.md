@@ -94,6 +94,7 @@ More recently I have been studying **LLM-based AI agents** and their societal im
 <div class="pub-links">
   <a class="pub-link-badge badge-pdf" href="https://openreview.net/pdf?id=fzt5SvBx1E" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
 </div>
+</div>
 
 <div class="pub-entry">
 <p><strong>Goethals, S., Sedoc, J., & Provost, F.</strong> (2025). What If the Prompt Were Different? Counterfactual Explanations for the Characteristics of Generative Outputs. <em>Adjunct Proceedings of UMAP 2025</em>, pp. 237–242.</p>
