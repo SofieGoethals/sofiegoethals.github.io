@@ -19,7 +19,7 @@ Hi! My name is Sofie Goethals. I am currently an Assistant Professor at the **Un
 {% assign recent_news = site.data.news | slice: 0, 5 %}
 <ul class="news-list">
 {% for item in recent_news %}
-<li><span class="news-date">{{ item.date }}</span> {{ item.emoji }} {{ item.text }}</li>
+<li><span class="news-date">{{ item.date }}</span> {{ item.emoji }} {{ item.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>
 {% endfor %}
 </ul>
 <p><a href="/content/news" style="font-size:0.9rem; font-weight:600;">See all news →</a></p>

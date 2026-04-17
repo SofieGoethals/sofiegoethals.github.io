@@ -6,5 +6,6 @@ title: News
 ## All news
 
 {% for item in site.data.news %}
-**{{ item.date | date: "%b %e, %Y" }}** {{ item.emoji }} {{ item.text }}  
+**{{ item.date }}** {{ item.emoji }} {{ item.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}
+
 {% endfor %}

@@ -4,26 +4,36 @@ title: Outreach
 
 <div class="pub-section-title"><i class="fas fa-chalkboard-teacher"></i> Presentations & Talks</div>
 
-#### 2025
+<details open>
+<summary class="year-toggle">2025</summary>
 
 <div class="pub-entry">
 <p><strong>UMAP — User Modeling, Adaptation and Personalisation</strong> &nbsp;<span class="pub-venue">NYC, USA</span></p>
 <p class="pub-venue">Accepted presentation · <em>Words reveal wants: How well can simple LLM-based AI agents replicate people's choices based on their social media posts</em></p>
+<div class="pub-links">
+  <a class="pub-link-badge badge-pdf" href="https://dl.acm.org/doi/pdf/10.1145/3708319.3733689" target="_blank"><i class="fas fa-file-pdf"></i> Paper</a>
+</div>
 </div>
 
 <div class="pub-entry">
 <p><strong>EXUM @ UMAP — Explainable User Models and Personalized Systems</strong> &nbsp;<span class="pub-venue">NYC, USA</span></p>
 <p class="pub-venue">Accepted presentation · <em>What If the Prompt Were Different? Counterfactual Explanations for the Characteristics of Generative Outputs</em></p>
+<div class="pub-links">
+  <a class="pub-link-badge badge-pdf" href="https://dl.acm.org/doi/pdf/10.1145/3708319.3733656" target="_blank"><i class="fas fa-file-pdf"></i> Paper</a>
+</div>
 </div>
 
 <div class="pub-entry">
 <p><strong>C3NLP @ NAACL — 3rd Workshop on Cross-Cultural Considerations in NLP</strong> &nbsp;<span class="pub-venue">Albuquerque, USA</span></p>
-<p class="pub-venue">Panel discussion</p>
+<p class="pub-venue">Panel discussion (Selected Papers Authors Panel)</p>
 </div>
 
 <div class="pub-entry">
 <p><strong>C3NLP @ NAACL — 3rd Workshop on Cross-Cultural Considerations in NLP</strong> &nbsp;<span class="pub-venue">Albuquerque, USA</span></p>
 <p class="pub-venue">Accepted presentation · <em>One world, one opinion? The superstar effect in LLM responses</em></p>
+<div class="pub-links">
+  <a class="pub-link-badge badge-acl" href="https://aclanthology.org/2025.c3nlp-1.pdf#page=100" target="_blank"><i class="fas fa-file-pdf"></i> ACL Anthology</a>
+</div>
 </div>
 
 <div class="pub-entry">
@@ -31,7 +41,10 @@ title: Outreach
 <p class="pub-venue">Poster session · <em>The trade-offs of obscuring your digital footprints</em></p>
 </div>
 
-#### 2024
+</details>
+
+<details>
+<summary class="year-toggle">2024</summary>
 
 <div class="pub-entry">
 <p><strong>EURO OSS — Operational Research and Machine Learning</strong> &nbsp;<span class="pub-venue">Online</span></p>
@@ -41,6 +54,9 @@ title: Outreach
 <div class="pub-entry">
 <p><strong>EWAF — European Workshop on Algorithmic Fairness</strong> &nbsp;<span class="pub-venue">Mainz, Germany</span></p>
 <p class="pub-venue">Poster session · <em>Reranking individuals</em></p>
+<div class="pub-links">
+  <a class="pub-link-badge badge-arxiv" href="https://arxiv.org/abs/2401.13391" target="_blank"><i class="fas fa-archive"></i> arXiv</a>
+</div>
 </div>
 
 <div class="pub-entry">
@@ -53,7 +69,10 @@ title: Outreach
 <p class="pub-venue">Invited talk · <em>Responsible AI: How can Explainable AI help address ethical issues?</em></p>
 </div>
 
-#### 2023
+</details>
+
+<details>
+<summary class="year-toggle">2023</summary>
 
 <div class="pub-entry">
 <p><strong>Flanders AI Research Day</strong> &nbsp;<span class="pub-venue">Mechelen, Belgium</span></p>
@@ -63,11 +82,17 @@ title: Outreach
 <div class="pub-entry">
 <p><strong>BIAS @ ECML — Third Workshop on Bias and Fairness in AI</strong> &nbsp;<span class="pub-venue">Turin, Italy</span></p>
 <p class="pub-venue">Accepted presentation · <em>Explainability methods to measure discrimination in machine learning models</em></p>
+<div class="pub-links">
+  <a class="pub-link-badge badge-pdf" href="https://ceur-ws.org/Vol-3442/paper-11.pdf" target="_blank"><i class="fas fa-file-pdf"></i> Paper</a>
+</div>
 </div>
 
 <div class="pub-entry">
 <p><strong>XKDD @ ECML — International Workshop on Explainable Knowledge Discovery</strong> &nbsp;<span class="pub-venue">Turin, Italy</span></p>
 <p class="pub-venue">Accepted presentation · <em>Manipulation Risks in Explainable AI: The Implications of the Disagreement Problem</em></p>
+<div class="pub-links">
+  <a class="pub-link-badge badge-doi" href="https://link.springer.com/chapter/10.1007/978-3-031-74633-8_12" target="_blank"><i class="fas fa-external-link-alt"></i> Paper</a>
+</div>
 </div>
 
 <div class="pub-entry">
@@ -78,6 +103,9 @@ title: Outreach
 <div class="pub-entry">
 <p><strong>EWAF — European Workshop on Algorithmic Fairness</strong> &nbsp;<span class="pub-venue">Winterthur, Switzerland</span></p>
 <p class="pub-venue">Accepted presentation · <em>Explainability methods to measure discrimination in machine learning models</em></p>
+<div class="pub-links">
+  <a class="pub-link-badge badge-pdf" href="https://ceur-ws.org/Vol-3442/paper-11.pdf" target="_blank"><i class="fas fa-file-pdf"></i> Paper</a>
+</div>
 </div>
 
 <div class="pub-entry">
@@ -85,7 +113,10 @@ title: Outreach
 <p class="pub-venue">Accepted presentation · <em>The trade-offs of obscuring your digital footprints</em></p>
 </div>
 
-#### 2022
+</details>
+
+<details>
+<summary class="year-toggle">2022</summary>
 
 <div class="pub-entry">
 <p><strong>Doctoral Day — University of Antwerp</strong> &nbsp;<span class="pub-venue">Antwerp, Belgium</span></p>
@@ -97,12 +128,15 @@ title: Outreach
 <p class="pub-venue">Accepted presentation · <em>How counterfactual explanations can be used to detect bias in a machine learning model</em></p>
 </div>
 
+</details>
+
 ---
 
-<div class="pub-section-title"><i class="fas fa-newspaper"></i> Press & Blog Posts</div>
+<details open>
+<summary class="year-toggle" style="font-size:1.1rem;"><i class="fas fa-newspaper" style="margin-right:0.4rem;"></i> Press & Blog Posts</summary>
 
 <div class="pub-entry">
-<p><strong><a href="https://theconversation.com/opening-the-black-box-how-explainable-ai-can-help-us-understand-how-algorithms-work-244080" target="_blank">The Conversation</a></strong> &nbsp;<span class="pub-venue">2024</span></p>
+<p><strong>The Conversation</strong> &nbsp;<span class="pub-venue">2024</span></p>
 <p class="pub-venue"><em>Opening the black box: how 'Explainable AI' can help us understand how algorithms work</em></p>
 <div class="pub-links">
   <a class="pub-link-badge badge-link" href="https://theconversation.com/opening-the-black-box-how-explainable-ai-can-help-us-understand-how-algorithms-work-244080" target="_blank"><i class="fas fa-external-link-alt"></i> Read</a>
@@ -110,7 +144,7 @@ title: Outreach
 </div>
 
 <div class="pub-entry">
-<p><strong><a href="https://financialforum.be/nl/bfw-digitaal/responsible-ai-in-finance" target="_blank">Belgisch Financiaal Forum</a></strong> &nbsp;<span class="pub-venue">2024</span></p>
+<p><strong>Belgisch Financiaal Forum</strong> &nbsp;<span class="pub-venue">2024</span></p>
 <p class="pub-venue"><em>Responsible AI in Finance</em></p>
 <div class="pub-links">
   <a class="pub-link-badge badge-link" href="https://financialforum.be/nl/bfw-digitaal/responsible-ai-in-finance" target="_blank"><i class="fas fa-external-link-alt"></i> Read</a>
@@ -118,9 +152,11 @@ title: Outreach
 </div>
 
 <div class="pub-entry">
-<p><strong><a href="https://hbr.org/2023/05/ai-can-be-both-accurate-and-transparent" target="_blank">Harvard Business Review</a></strong> &nbsp;<span class="pub-venue">2023</span></p>
+<p><strong>Harvard Business Review</strong> &nbsp;<span class="pub-venue">2023</span></p>
 <p class="pub-venue"><em>AI can be both accurate and transparent</em> (featured research)</p>
 <div class="pub-links">
   <a class="pub-link-badge badge-link" href="https://hbr.org/2023/05/ai-can-be-both-accurate-and-transparent" target="_blank"><i class="fas fa-external-link-alt"></i> Read</a>
 </div>
 </div>
+
+</details>

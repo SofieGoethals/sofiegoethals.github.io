@@ -419,6 +419,56 @@ footer a:hover, footer a:focus {
   margin-left: 0.5rem;
 }
 
+/* --- Collapsible year sections (details/summary) --- */
+details {
+  margin-bottom: 0.5rem;
+}
+details + details {
+  margin-top: 0.25rem;
+}
+.year-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--navy);
+  padding: 0.6rem 0.9rem;
+  border-radius: var(--radius);
+  background: var(--light-bg);
+  border: 1px solid var(--border);
+  list-style: none;
+  user-select: none;
+  transition: background 0.15s;
+}
+.year-toggle::-webkit-details-marker { display: none; }
+.year-toggle::before {
+  content: '▶';
+  font-size: 0.65rem;
+  color: var(--teal);
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+details[open] > .year-toggle::before {
+  transform: rotate(90deg);
+}
+.year-toggle:hover {
+  background: #e0f2fe;
+  border-color: var(--teal);
+}
+details[open] > .year-toggle {
+  background: #e0f2fe;
+  border-color: var(--teal);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+details[open] > .pub-entry,
+details[open] > div {
+  border-top: none;
+}
+
 /* --- Responsive tweaks --- */
 @media (max-width: 768px) {
   .profile-hero { flex-direction: column; align-items: center; text-align: center; }
