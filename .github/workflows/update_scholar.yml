@@ -1,10 +1,9 @@
-name: Update Google Scholar Publications
+name: Update Publications from Semantic Scholar
 
 on:
   schedule:
-    # Run every Monday at 06:00 UTC
-    - cron: "0 6 * * 1"
-  workflow_dispatch:   # allow manual trigger from GitHub Actions tab
+    - cron: "0 6 * * 1"   # Every Monday 06:00 UTC
+  workflow_dispatch:       # Manual trigger from Actions tab
 
 jobs:
   update-publications:
@@ -22,22 +21,19 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: |
-          pip install scholarly pyyaml
+        run: pip install requests pyyaml
 
-      - name: Run scholar scraper
+      - name: Fetch publications from Semantic Scholar
         run: python scripts/update_publications.py
-        # Failure here doesn't break the site — the existing YAML stays in place
-        continue-on-error: true
 
-      - name: Commit updated publications (if changed)
+      - name: Commit changes (if any)
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add _data/scholar_pubs.yml
+          git add _data/scholar_pubs.yml _data/news.yml
           if git diff --cached --quiet; then
-            echo "No changes to commit."
+            echo "Nothing changed — no commit needed."
           else
-            git commit -m "chore: update Google Scholar publications [automated]"
+            git commit -m "chore: sync publications from Semantic Scholar [automated]"
             git push
           fi

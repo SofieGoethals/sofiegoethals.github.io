@@ -134,17 +134,17 @@ keywords: "Sofie Goethals, Explainable AI, XAI, Trustworthy Machine Learning, Al
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#1a2b4a"
-navbar-text-col: "#e2e8f0"
-navbar-border-col: "#2d4a7a"
-page-col: "#f8fafc"
-text-col: "#334155"
-link-col: "#0d9488"
-hover-col: "#14b8a6"
-footer-col: "#1a2b4a"
-footer-text-col: "#94a3b8"
-footer-link-col: "#cbd5e1"
-footer-hover-col: "#14b8a6"
+navbar-col: "#2C1F0E"
+navbar-text-col: "#F7F0E4"
+navbar-border-col: "#3D2914"
+page-col: "#FDFAF6"
+text-col: "#2C1F0E"
+link-col: "#8B6220"
+hover-col: "#6B4A18"
+footer-col: "#2C1F0E"
+footer-text-col: "#E5D5B8"
+footer-link-col: "#F7F0E4"
+footer-hover-col: "#C9A66B"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour

@@ -1,224 +1,295 @@
 #!/usr/bin/env python3
 """
-Fetch publications from Google Scholar and:
-  1. Write _data/scholar_pubs.yml with the full publication list
-  2. Add news entries to _data/news.yml for any newly detected publications
-  3. Remove preprints from _data/publications_preprints.yml that have since been published
+Fetch Sofie Goethals' publications from the Semantic Scholar API
+(free, no auth, no rate-limit blocks) and:
 
-Google Scholar profile: https://scholar.google.com/citations?user=3yM14pcAAAAJ
+  1. Write _data/scholar_pubs.yml  — full publication list
+  2. Update _data/news.yml         — add entries for newly detected papers
+  3. Print a report of preprints that have since been published
+     (so they can be manually removed from the Preprints section)
+
+Semantic Scholar API docs: https://api.semanticscholar.org/api-docs/
 """
 
-import yaml
-import time
-import sys
+import json
 import os
 import re
+import sys
+import time
 from datetime import datetime
 
-SCHOLAR_ID = "3yM14pcAAAAJ"
-REPO_ROOT   = os.path.join(os.path.dirname(__file__), "..")
+import requests
+import yaml
+
+# ── Config ────────────────────────────────────────────────────────
+AUTHOR_NAME   = "Sofie Goethals"
+AFFIL_KEYS    = ["antwerp", "columbia"]          # used to disambiguate
+SS_BASE       = "https://api.semanticscholar.org/graph/v1"
+PAPER_FIELDS  = (
+    "title,year,venue,journal,authors,"
+    "externalIds,openAccessPdf,publicationTypes,citationCount"
+)
+
+REPO_ROOT   = os.path.normpath(os.path.join(os.path.dirname(__file__), ".."))
 SCHOLAR_YML = os.path.join(REPO_ROOT, "_data", "scholar_pubs.yml")
 NEWS_YML    = os.path.join(REPO_ROOT, "_data", "news.yml")
 
-# Preprint arXiv IDs that are known to be published (won't appear as preprint news)
-KNOWN_PUBLISHED_ARXIV = set()
+
+# ── HTTP helpers ──────────────────────────────────────────────────
+def _get(endpoint: str, params: dict = None) -> dict:
+    url = f"{SS_BASE}/{endpoint}"
+    for attempt in range(3):
+        try:
+            resp = requests.get(url, params=params, timeout=30,
+                                headers={"User-Agent": "academic-site-bot/1.0"})
+            if resp.status_code == 429:
+                wait = int(resp.headers.get("Retry-After", 10))
+                print(f"  Rate limited — waiting {wait}s...")
+                time.sleep(wait)
+                continue
+            resp.raise_for_status()
+            time.sleep(0.5)   # be polite
+            return resp.json()
+        except requests.RequestException as e:
+            print(f"  Request error (attempt {attempt+1}/3): {e}")
+            time.sleep(3)
+    raise RuntimeError(f"Failed to fetch {url} after 3 attempts")
 
 
-# ── helpers ──────────────────────────────────────────────────────────────────
+# ── Author lookup ─────────────────────────────────────────────────
+def find_author_id() -> str:
+    print(f"Looking up '{AUTHOR_NAME}' on Semantic Scholar...")
+    data = _get("author/search", {
+        "query": AUTHOR_NAME,
+        "fields": "authorId,name,affiliations",
+        "limit": 10,
+    })
+    candidates = data.get("data", [])
 
-def _load_yaml(path):
+    # Prefer a candidate with a known affiliation keyword
+    for candidate in candidates:
+        affs = [a.get("name", "").lower() for a in candidate.get("affiliations", [])]
+        if any(kw in aff for kw in AFFIL_KEYS for aff in affs):
+            print(f"  ✓ Matched by affiliation: {candidate['name']} "
+                  f"(id={candidate['authorId']})")
+            return candidate["authorId"]
+
+    # Fallback: first result with an exact name match
+    for candidate in candidates:
+        if candidate.get("name", "").lower() == AUTHOR_NAME.lower():
+            print(f"  ✓ Matched by name: {candidate['name']} "
+                  f"(id={candidate['authorId']})")
+            return candidate["authorId"]
+
+    if candidates:
+        print(f"  ⚠ Using first result: {candidates[0]['name']} "
+              f"(id={candidates[0]['authorId']})")
+        return candidates[0]["authorId"]
+
+    raise RuntimeError(f"Author '{AUTHOR_NAME}' not found on Semantic Scholar")
+
+
+# ── Paper fetch ───────────────────────────────────────────────────
+def fetch_all_papers(author_id: str) -> list:
+    papers, offset = [], 0
+    while True:
+        data = _get(f"author/{author_id}/papers", {
+            "fields": PAPER_FIELDS, "limit": 100, "offset": offset
+        })
+        batch = data.get("data", [])
+        papers.extend(batch)
+        print(f"  Fetched {len(papers)} papers so far...")
+        if len(batch) < 100:
+            break
+        offset += 100
+    return papers
+
+
+# ── Paper classification ──────────────────────────────────────────
+def _is_preprint(paper: dict) -> bool:
+    types    = paper.get("publicationTypes") or []
+    ext_ids  = paper.get("externalIds") or {}
+    venue    = (paper.get("venue") or "").lower()
+    is_arxiv = "ArXiv" in ext_ids
+    is_published = (
+        "JournalArticle" in types
+        or "Conference"  in types
+        or "Book"        in types
+        or ext_ids.get("DOI")
+    )
+    if is_published:
+        return False
+    return is_arxiv or "Preprint" in types or re.search(r"arxiv|preprint|ssrn", venue) is not None
+
+
+def paper_to_entry(paper: dict) -> dict:
+    ext_ids   = paper.get("externalIds") or {}
+    journal   = paper.get("journal") or {}
+    authors   = [a.get("name", "") for a in (paper.get("authors") or [])]
+    types     = paper.get("publicationTypes") or []
+
+    # Best URL: DOI → arXiv → nothing
+    url = ""
+    if ext_ids.get("DOI"):
+        url = f"https://doi.org/{ext_ids['DOI']}"
+    elif ext_ids.get("ArXiv"):
+        url = f"https://arxiv.org/abs/{ext_ids['ArXiv']}"
+
+    # Best PDF
+    pdf_url = ""
+    oa = paper.get("openAccessPdf")
+    if oa and oa.get("url"):
+        pdf_url = oa["url"]
+    elif ext_ids.get("ArXiv"):
+        pdf_url = f"https://arxiv.org/pdf/{ext_ids['ArXiv']}"
+
+    venue = paper.get("venue") or journal.get("name") or ""
+
+    return {
+        "title":       paper.get("title", ""),
+        "authors":     ", ".join(authors),
+        "venue":       venue,
+        "year":        paper.get("year"),
+        "url":         url,
+        "pdf_url":     pdf_url,
+        "arxiv_id":    ext_ids.get("ArXiv", ""),
+        "doi":         ext_ids.get("DOI", ""),
+        "citations":   paper.get("citationCount", 0),
+        "is_preprint": _is_preprint(paper),
+        "pub_types":   types,
+    }
+
+
+# ── YAML helpers ─────────────────────────────────────────────────
+def _load_yaml(path: str):
     if not os.path.exists(path):
-        return {}
+        return None
     with open(path, encoding="utf-8") as f:
-        return yaml.safe_load(f) or {}
+        return yaml.safe_load(f)
 
 
-def _save_yaml(path, data):
+def _save_yaml(path: str, data):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
-        yaml.dump(data, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
+        yaml.dump(data, f, allow_unicode=True, sort_keys=False,
+                  default_flow_style=False, width=120)
 
 
-def _normalise_title(title):
-    """Lowercase, strip punctuation for fuzzy comparison."""
-    return re.sub(r"[^a-z0-9 ]", "", title.lower()).strip()
+# ── Title normalisation for dedup ─────────────────────────────────
+def _norm(text: str) -> str:
+    return re.sub(r"[^a-z0-9 ]", "", text.lower()).strip()
 
 
-def _titles_in_news(news_items):
-    """Return set of normalised title fragments already in news.yml."""
-    titles = set()
-    for item in news_items:
-        text = item.get("text", "")
-        titles.add(_normalise_title(text[:80]))
-    return titles
+def _word_overlap(a: str, b: str) -> int:
+    return len(set(a.split()) & set(b.split()))
 
 
-def _already_in_news(title, news_titles):
-    """Fuzzy check: is a publication title already mentioned in news?"""
-    norm = _normalise_title(title[:80])
-    for t in news_titles:
-        # 6-word overlap is enough
-        words_a = set(norm.split())
-        words_b = set(t.split())
-        if len(words_a & words_b) >= 6:
-            return True
-    return False
+def _already_in_news(title: str, news_norms: list) -> bool:
+    nt = _norm(title)
+    return any(_word_overlap(nt, nn) >= 6 for nn in news_norms)
 
 
-# ── Google Scholar fetch ──────────────────────────────────────────────────────
+# ── News update ───────────────────────────────────────────────────
+def update_news(new_pubs: list, old_pub_titles: set):
+    """Prepend a news entry for every publication not seen before."""
+    news = _load_yaml(NEWS_YML)
+    if not isinstance(news, list):
+        news = []
 
-def fetch_publications():
-    try:
-        from scholarly import scholarly, ProxyGenerator
-    except ImportError:
-        print("ERROR: Install scholarly with:  pip install scholarly")
-        sys.exit(1)
-
-    print(f"Fetching Google Scholar profile for ID: {SCHOLAR_ID}")
-    pg = ProxyGenerator()
-    scholarly.use_proxy(pg)
-
-    try:
-        author = scholarly.search_author_id(SCHOLAR_ID)
-        author = scholarly.fill(author, sections=["publications"])
-    except Exception as e:
-        print(f"ERROR fetching author profile: {e}")
-        sys.exit(1)
-
-    publications = []
-    for pub in author.get("publications", []):
-        try:
-            filled = scholarly.fill(pub)
-            bib = filled.get("bib", {})
-            entry = {
-                "title":     bib.get("title", ""),
-                "authors":   bib.get("author", ""),
-                "venue":     bib.get("venue", bib.get("journal", bib.get("booktitle", ""))),
-                "year":      int(bib.get("pub_year", 0)) if bib.get("pub_year") else None,
-                "abstract":  bib.get("abstract", ""),
-                "url":       filled.get("pub_url", ""),
-                "eprint":    filled.get("eprint_url", ""),
-                "citations": filled.get("num_citations", 0),
-                "is_preprint": bool(re.search(r"arxiv|preprint|biorxiv|ssrn", bib.get("venue", ""), re.I)),
-            }
-            publications.append(entry)
-            print(f"  ✓ {entry['title'][:70]}...")
-            time.sleep(1)
-        except Exception as e:
-            print(f"  ✗ Could not fill publication: {e}")
-            continue
-
-    publications.sort(key=lambda x: x.get("year") or 0, reverse=True)
-    return publications
-
-
-# ── Detect new publications and update news.yml ───────────────────────────────
-
-def update_news(new_pubs, old_pubs):
-    """Add news.yml entries for publications that are new since the last run."""
-    old_titles = {_normalise_title(p.get("title", "")) for p in old_pubs}
-
-    news_data  = _load_yaml(NEWS_YML)
-    news_items = news_data if isinstance(news_data, list) else []
-    news_titles = _titles_in_news(news_items)
-
+    news_norms = [_norm(item.get("text", "")[:120]) for item in news]
     added = 0
+
     for pub in new_pubs:
-        title = pub.get("title", "")
+        title = pub.get("title", "").strip()
         if not title:
             continue
-        norm = _normalise_title(title)
-        # Only add if truly new (not in previous Scholar run) AND not already in news
-        if norm in old_titles:
+        # Skip if it was in the previous Scholar run
+        if _norm(title) in old_pub_titles:
             continue
-        if _already_in_news(title, news_titles):
+        # Skip if already mentioned in news
+        if _already_in_news(title, news_norms):
             continue
 
-        year  = pub.get("year") or datetime.utcnow().year
-        month = datetime.utcnow().strftime("%m")
-        venue = pub.get("venue", "")
-        url   = pub.get("url", "") or pub.get("eprint", "")
+        year    = pub.get("year") or datetime.utcnow().year
+        month   = datetime.utcnow().strftime("%m")
+        venue   = pub.get("venue", "")
+        url     = pub.get("url", "") or pub.get("pdf_url", "")
+        preprint = pub.get("is_preprint", False)
 
-        is_preprint = pub.get("is_preprint", False)
-        emoji = "📄" if not is_preprint else "📝"
-        pub_type = "New preprint" if is_preprint else "New publication"
-
-        if url:
-            text = f"{pub_type}: [{title}]({url})"
-        else:
-            text = f"{pub_type}: {title}"
+        emoji   = "📝" if preprint else "📄"
+        kind    = "New preprint" if preprint else "New publication"
+        text    = f"{kind}: [{title}]({url})" if url else f"{kind}: {title}"
         if venue:
             text += f" in *{venue}*"
         text += "!"
 
-        entry = {
-            "date":  f"{year}-{month}",
-            "emoji": emoji,
-            "text":  text,
-        }
-        # Prepend to news list (most recent first)
-        news_items.insert(0, entry)
-        news_titles.add(_normalise_title(text[:80]))
-        print(f"  + News entry added: {title[:60]}...")
+        entry = {"date": f"{year}-{month}", "emoji": emoji, "text": text}
+        news.insert(0, entry)
+        news_norms.insert(0, _norm(text[:120]))
+        print(f"  + News entry: {title[:65]}...")
         added += 1
 
-    if added > 0:
-        _save_yaml(NEWS_YML, news_items)
-        print(f"Added {added} news entries to {NEWS_YML}")
+    if added:
+        _save_yaml(NEWS_YML, news)
+        print(f"  Wrote {added} new news entries to {NEWS_YML}")
     else:
-        print("No new news entries needed.")
+        print("  No new news entries needed.")
 
 
-# ── Remove graduated preprints ────────────────────────────────────────────────
-
-def flag_graduated_preprints(publications):
+# ── Graduated preprint detection ──────────────────────────────────
+def report_graduated_preprints(pubs: list):
     """
-    Print a report of arXiv papers that also appear as journal/conference
-    publications — these are preprints that have since been published and
-    should be manually removed from the Preprints section in publications.md.
+    Identify arXiv preprints that now also appear as a published paper
+    so the user can remove them from the manual Preprints section.
     """
-    preprints   = [p for p in publications if p.get("is_preprint")]
-    published   = [p for p in publications if not p.get("is_preprint")]
-    pub_titles  = {_normalise_title(p.get("title", "")) for p in published}
+    preprints  = [p for p in pubs if p.get("is_preprint")]
+    published  = [p for p in pubs if not p.get("is_preprint")]
+    pub_norms  = {_norm(p["title"]) for p in published if p.get("title")}
 
     graduated = []
     for pre in preprints:
-        norm = _normalise_title(pre.get("title", ""))
-        words = set(norm.split())
-        for pt in pub_titles:
-            pt_words = set(pt.split())
-            if len(words & pt_words) >= 6:
-                graduated.append(pre["title"])
-                break
+        nt = _norm(pre.get("title", ""))
+        # Check exact norm match OR high word overlap with any published title
+        if nt in pub_norms or any(_word_overlap(nt, pn) >= 7 for pn in pub_norms):
+            graduated.append(pre["title"])
 
     if graduated:
-        print("\n⚠️  The following preprints appear to have been published "
-              "and can be removed from the Preprints section in publications.md:")
+        print("\n⚠️  These preprints appear to have been published — "
+              "consider removing them from the Preprints section in publications.md:")
         for t in graduated:
             print(f"    • {t}")
     return graduated
 
 
-# ── main ──────────────────────────────────────────────────────────────────────
-
-if __name__ == "__main__":
-    # Load previous publications for diffing
-    old_data = _load_yaml(SCHOLAR_YML)
-    old_pubs = old_data.get("publications", []) if isinstance(old_data, dict) else []
+# ── Main ──────────────────────────────────────────────────────────
+def main():
+    # Load previous data for diff
+    old_data      = _load_yaml(SCHOLAR_YML) or {}
+    old_pubs      = old_data.get("publications", []) if isinstance(old_data, dict) else []
+    old_pub_norms = {_norm(p.get("title", "")) for p in old_pubs if p.get("title")}
 
     # Fetch fresh data
-    pubs = fetch_publications()
+    author_id = find_author_id()
+    raw_papers = fetch_all_papers(author_id)
+    print(f"  Total papers fetched: {len(raw_papers)}")
 
-    # Write updated scholar_pubs.yml
+    pubs = [paper_to_entry(p) for p in raw_papers if p.get("title")]
+    pubs.sort(key=lambda x: x.get("year") or 0, reverse=True)
+
+    # Save scholar_pubs.yml
     _save_yaml(SCHOLAR_YML, {
         "last_updated": datetime.utcnow().strftime("%Y-%m-%d"),
-        "scholar_id":   SCHOLAR_ID,
+        "author_id":    author_id,
         "publications": pubs,
     })
     print(f"\nWrote {len(pubs)} publications to {SCHOLAR_YML}")
 
-    # Update news
-    update_news(pubs, old_pubs)
+    # Update news.yml
+    update_news(pubs, old_pub_norms)
 
     # Report graduated preprints
-    flag_graduated_preprints(pubs)
+    report_graduated_preprints(pubs)
+
+
+if __name__ == "__main__":
+    main()
