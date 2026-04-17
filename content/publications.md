@@ -20,12 +20,12 @@ More recently I have been studying **LLM-based AI agents** and their societal im
   Also on <a href="https://scholar.google.com/citations?user=3yM14pcAAAAJ&hl=en" target="_blank">Google Scholar</a>
   &nbsp;·&nbsp;
   <a href="https://orcid.org/0000-0003-3784-826X" target="_blank"><i class="fab fa-orcid"></i> ORCID</a>
+  {% if site.data.scholar_pubs.last_updated %}&nbsp;·&nbsp;<span style="font-size:0.85rem;"><i class="fas fa-sync-alt"></i> Synced {{ site.data.scholar_pubs.last_updated }}</span>{% endif %}
 </p>
 
 ---
 
 <div class="pub-section-title"><i class="fas fa-book-open"></i> Journal Publications</div>
-<!-- BEGIN:journal -->
 
 <div class="pub-entry">
 <p><strong> Goethals, S., Rhue, L., & Sundararajan, A.</strong> (2026). Fairness Principles Across Contexts: Evaluating Gender Disparities of Facts and Opinions in Large Language Models. <em>AI &amp; Ethics</em>.</p>
@@ -83,6 +83,8 @@ More recently I have been studying **LLM-based AI agents** and their societal im
 </div>
 </div>
 
+<!-- SYNC:journal -->
+
 ---
 
 <div class="pub-section-title"><i class="fas fa-users"></i> Conference Publications</div>
@@ -131,6 +133,8 @@ More recently I have been studying **LLM-based AI agents** and their societal im
 </div>
 </div>
 
+<!-- SYNC:conference -->
+
 ---
 
 <div class="pub-section-title"><i class="fas fa-file-alt"></i> Preprints</div>
@@ -167,19 +171,4 @@ More recently I have been studying **LLM-based AI agents** and their societal im
 </div>
 </div>
 
----
-
-{% if site.data.scholar_pubs.publications.size > 0 %}
-<div class="pub-section-title"><i class="fas fa-sync-alt"></i> Auto-synced from Semantic Scholar <small style="font-size:0.7rem; font-weight:400; color:var(--text-muted);">Last updated: {{ site.data.scholar_pubs.last_updated }}</small></div>
-
-{% for pub in site.data.scholar_pubs.publications %}
-<div class="pub-entry">
-<p><strong>{{ pub.authors }}</strong> {% if pub.year %}({{ pub.year }}){% endif %}. {{ pub.title }}{% if pub.venue %}. <em>{{ pub.venue }}</em>{% endif %}.</p>
-{% if pub.citations > 0 %}<p class="pub-venue">{{ pub.citations }} citations</p>{% endif %}
-<div class="pub-links">
-  {% if pub.url %}<a class="pub-link-badge badge-doi" href="{{ pub.url }}" target="_blank"><i class="fas fa-external-link-alt"></i> View</a>{% endif %}
-  {% if pub.pdf_url %}<a class="pub-link-badge badge-pdf" href="{{ pub.pdf_url }}" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>{% endif %}
-</div>
-</div>
-{% endfor %}
-{% endif %}
+<!-- SYNC:preprints -->
