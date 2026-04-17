@@ -91,6 +91,8 @@ More recently I have been studying **LLM-based AI agents** and their societal im
 
 <div class="pub-entry">
 <p><strong>Ding, F., Shmueli, G., Greene, T. & Goethals, S.</strong> (2026). Adapting Multiverse Analysis for Prediction: A Decision-Maker's Dashboard. <em>Navigating the Model Uncertainty and the Rashomon Effect: From Theory and Tools to Applications and Impact</em>.</p>
+<div class="pub-links">
+  <a class="pub-link-badge badge-pdf" href="https://openreview.net/pdf?id=fzt5SvBx1E" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
 </div>
 
 <div class="pub-entry">
