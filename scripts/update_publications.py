@@ -211,7 +211,10 @@ def update_news(new_pubs: list, old_pub_titles: set):
             continue
 
         year    = pub.get("year") or datetime.utcnow().year
-        month   = datetime.utcnow().strftime("%m")
+        # Use current month only when the paper was published this year
+        # (Semantic Scholar only gives us year-level granularity)
+        now = datetime.utcnow()
+        month = now.strftime("%m") if year == now.year else "01"
         venue   = pub.get("venue", "")
         url     = pub.get("url", "") or pub.get("pdf_url", "")
         preprint = pub.get("is_preprint", False)
