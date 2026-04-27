@@ -83,6 +83,13 @@ More recently I have been studying **LLM-based AI agents** and their societal im
 </div>
 </div>
 
+<div class="pub-entry">
+<p><strong>L. Rhue, Sofie Goethals, Arun Sundararajan</strong> (2024). <a href="https://doi.org/10.48550/arXiv.2403.09148" target="_blank">Evaluating LLMs for Gender Disparities in Notable Persons</a>. <em>arXiv.org</em>.</p>
+<div class="pub-links">
+  <a class="pub-link-badge badge-doi" href="https://doi.org/10.48550/arXiv.2403.09148" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
+  <a class="pub-link-badge badge-pdf" href="https://arxiv.org/pdf/2403.09148" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
+</div>
+</div>
 <!-- SYNC:journal -->
 
 ---
