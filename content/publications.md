@@ -2,7 +2,7 @@
 title: Research
 ---
 
-My research sits at the intersection of **machine learning**, **ethics**, and **society**. I study how we can build AI systems that are not only accurate, but also transparent, fair, and privacy-preserving — and what happens when these goals conflict with each other or with commercial incentives.
+My research sits at the intersection of **machine learning**, **ethics**, and **society**. I study how we can build AI systems that are not only accurate, but also transparent, fair, and privacy-preserving. What happens when these goals conflict with each other or with commercial incentives.
 
 <div class="research-tags" style="margin: 1rem 0 1.5rem;">
   <span class="research-tag"><i class="fas fa-search"></i> Explainable AI</span>
@@ -13,7 +13,7 @@ My research sits at the intersection of **machine learning**, **ethics**, and **
 </div>
 
 One area of my work corresponds to **counterfactual explanations**: "what would need to change for a different outcome?" — and how they can be used to audit models for bias, quantify privacy risks, and provide actionable recourse to individuals. 
-More recently I have been studying **LLM-based AI agents** and their societal implications: do they homogenise our choices? Can we derive their decision boundaries? Can they lead to privacy leakage?
+More recently I have been studying **LLM-based AI agents** and their societal implications: do they homogenise our choices? Can we get insights into their decision-making? Can they lead to privacy leakage? How do they adapt their responses to specific users?
 
 <p style="color: var(--text-muted); margin-top: 1rem; font-size:0.9rem;">
   <i class="fas fa-graduation-cap"></i>
