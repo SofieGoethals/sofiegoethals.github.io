@@ -1,4 +1,4 @@
-last_updated: '2026-06-15'
+last_updated: '2026-06-22'
 author_id: '2304488611'
 publications:
 - title: Cash or Comfort? How LLMs Value Your Inconvenience
@@ -35,7 +35,7 @@ publications:
   pdf_url: ''
   arxiv_id: ''
   doi: 10.1007/s43681-025-00876-5
-  citations: 0
+  citations: 1
   is_preprint: false
   section: journal
   pub_types:
