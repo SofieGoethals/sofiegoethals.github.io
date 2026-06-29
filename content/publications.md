@@ -202,4 +202,11 @@ More recently I have been studying **LLM-based AI agents** and their societal im
 </div>
 </div>
 
+<div class="pub-entry">
+<p><strong>Manon Reusens, Sofie Goethals, David Martens</strong> (2026). <a href="https://arxiv.org/abs/2606.18005" target="_blank">LLM Consumer Behavior Theory: Foundations of a Novel Research Field</a>.</p>
+<div class="pub-links">
+  <a class="pub-link-badge badge-arxiv" href="https://arxiv.org/abs/2606.18005" target="_blank"><i class="fas fa-archive"></i> arXiv</a>
+  <a class="pub-link-badge badge-pdf" href="https://arxiv.org/pdf/2606.18005" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
+</div>
+</div>
 <!-- SYNC:preprints -->
