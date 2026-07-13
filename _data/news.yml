@@ -1,4 +1,8 @@
 - date: "2026-06"
+  emoji: "📝"
+  text: "New preprint: [LLM Consumer Behavior Theory: Foundations of a Novel Research Field](https://arxiv.org/abs/2606.18005)!"
+
+- date: "2026-06"
   emoji: "📄"
   text: "Our paper [On the Definition and Detection of Cherry-Picking in Counterfactual Explanations](https://link.springer.com/article/10.1007/s10618-026-01234-7) is published in *Data Mining and Knowledge Discovery*!"
 
