@@ -1,3 +1,11 @@
+- date: "2026-06"
+  emoji: "📄"
+  text: "Our paper [On the Definition and Detection of Cherry-Picking in Counterfactual Explanations](https://link.springer.com/article/10.1007/s10618-026-01234-7) is published in *Data Mining and Knowledge Discovery*!"
+
+- date: "2026-05"
+  emoji: "📄"
+  text: "Our paper [Would a Large Language Model Pay Extra for a View? Inferring Willingness to Pay from Subjective Choices](https://www.sciencedirect.com/science/article/pii/S0957417426021883) is published in *Expert Systems with Applications*!"
+
 - date: "2026-04"
   emoji: "📄"
   text: "Our paper [Reranking individuals: The effect of fair classification within-groups](https://dl.acm.org/doi/abs/10.1145/3802540) is published in the *ACM Journal on Responsible Computing*!"

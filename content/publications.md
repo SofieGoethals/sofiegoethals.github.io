@@ -28,6 +28,20 @@ More recently I have been studying **LLM-based AI agents** and their societal im
 <div class="pub-section-title"><i class="fas fa-book-open"></i> Journal Publications</div>
 
 <div class="pub-entry">
+<p><strong>Hinns, J., Goethals, S., Van der Veeken, S., Evgeniou, T. & Martens, D.</strong> (2026). On the Definition and Detection of Cherry-Picking in Counterfactual Explanations. <em>Data Mining and Knowledge Discovery</em>, 40(4).</p>
+<div class="pub-links">
+  <a class="pub-link-badge badge-doi" href="https://link.springer.com/article/10.1007/s10618-026-01234-7" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
+</div>
+</div>
+
+<div class="pub-entry">
+<p><strong>Reusens, M., Goethals, S., Calders, T. & Martens, D.</strong> (2026). Would a Large Language Model Pay Extra for a View? Inferring Willingness to Pay from Subjective Choices. <em>Expert Systems with Applications</em>, 331, 133279.</p>
+<div class="pub-links">
+  <a class="pub-link-badge badge-doi" href="https://www.sciencedirect.com/science/article/pii/S0957417426021883" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
+</div>
+</div>
+
+<div class="pub-entry">
 <p><strong> Goethals, S., Rhue, L., & Sundararajan, A.</strong> (2026). Fairness Principles Across Contexts: Evaluating Gender Disparities of Facts and Opinions in Large Language Models. <em>AI &amp; Ethics</em>.</p>
 <div class="pub-links">
   <a class="pub-link-badge badge-doi" href="https://link.springer.com/article/10.1007/s43681-025-00876-5" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
@@ -181,26 +195,10 @@ More recently I have been studying **LLM-based AI agents** and their societal im
 </div>
 
 <div class="pub-entry">
-<p><strong>Reusens, M., Goethals, S., Calders, T. & Martens, D.</strong> (2026). Would a Large Language Model Pay Extra for a View? Inferring Willingness to Pay from Subjective Choices.</p>
-<div class="pub-links">
-  <a class="pub-link-badge badge-arxiv" href="https://arxiv.org/abs/2602.09802" target="_blank"><i class="fas fa-archive"></i> arXiv</a>
-  <a class="pub-link-badge badge-pdf" href="https://arxiv.org/pdf/2602.09802" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
-</div>
-</div>
-
-<div class="pub-entry">
 <p><strong>Goethals, S., Provost, F. & Sedoc, J.</strong> (2026). Prompt-Counterfactual Explanations for Generative AI System Behavior.</p>
 <div class="pub-links">
   <a class="pub-link-badge badge-arxiv" href="https://arxiv.org/abs/2601.03156" target="_blank"><i class="fas fa-archive"></i> arXiv</a>
   <a class="pub-link-badge badge-pdf" href="https://arxiv.org/pdf/2601.03156" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
-</div>
-</div>
-
-<div class="pub-entry">
-<p><strong>Hinns, J., Goethals, S., Van der Veeken, S., Evgeniou, T. & Martens, D.</strong> (2026). On the Definition and Detection of Cherry-Picking in Counterfactual Explanations.</p>
-<div class="pub-links">
-  <a class="pub-link-badge badge-arxiv" href="https://arxiv.org/abs/2601.04977" target="_blank"><i class="fas fa-archive"></i> arXiv</a>
-  <a class="pub-link-badge badge-pdf" href="https://arxiv.org/pdf/2601.04977" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
 </div>
 </div>
 
