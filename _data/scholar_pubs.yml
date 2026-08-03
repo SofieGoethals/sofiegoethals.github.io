@@ -1,4 +1,4 @@
-last_updated: '2026-07-27'
+last_updated: '2026-08-03'
 author_id: '2304488611'
 publications:
 - title: 'LLM Consumer Behavior Theory: Foundations of a Novel Research Field'
@@ -47,7 +47,7 @@ publications:
   pdf_url: https://link.springer.com/content/pdf/10.1007/s43681-025-00876-5.pdf
   arxiv_id: ''
   doi: 10.1007/s43681-025-00876-5
-  citations: 1
+  citations: 2
   is_preprint: false
   section: journal
   pub_types:
