@@ -1,18 +1,19 @@
-last_updated: '2026-08-03'
+last_updated: '2026-08-10'
 author_id: '2304488611'
 publications:
 - title: 'LLM Consumer Behavior Theory: Foundations of a Novel Research Field'
   authors: Manon Reusens, Sofie Goethals, David Martens
-  venue: ''
+  venue: arXiv.org
   year: 2026
-  url: https://arxiv.org/abs/2606.18005
+  url: https://doi.org/10.48550/arXiv.2606.18005
   pdf_url: https://arxiv.org/pdf/2606.18005
   arxiv_id: '2606.18005'
-  doi: ''
+  doi: 10.48550/arXiv.2606.18005
   citations: 0
-  is_preprint: true
-  section: preprints
-  pub_types: []
+  is_preprint: false
+  section: journal
+  pub_types:
+  - JournalArticle
 - title: Cash or Comfort? How LLMs Value Your Inconvenience
   authors: Mateusz Cedro, Timour Ichmoukhamedov, Sofie Goethals, Yifan He, James Hinns, David Martens
   venue: arXiv.org
