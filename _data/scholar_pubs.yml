@@ -1,4 +1,4 @@
-last_updated: '2026-08-10'
+last_updated: '2026-08-24'
 author_id: '2304488611'
 publications:
 - title: 'LLM Consumer Behavior Theory: Foundations of a Novel Research Field'
@@ -28,18 +28,30 @@ publications:
   pub_types:
   - JournalArticle
 - title: 'The Basic B*** Effect: The Use of LLM-based Agents Reduces the Distinctiveness and Diversity of People''s Choices'
-  authors: Sandra Matz, C. Horton, Sofie Goethals
+  authors: Sandra C. Matz, C. Horton, Sofie Goethals
   venue: arXiv.org
   year: 2025
   url: https://doi.org/10.48550/arXiv.2509.02910
-  pdf_url: https://arxiv.org/pdf/2509.02910
-  arxiv_id: '2509.02910'
+  pdf_url: ''
+  arxiv_id: ''
   doi: 10.48550/arXiv.2509.02910
-  citations: 5
+  citations: 0
   is_preprint: false
   section: journal
   pub_types:
   - JournalArticle
+- title: 'The Basic B*** Effect: The Use of LLM-based Agents Reduces the Distinctiveness and Diversity of People''s Choices'
+  authors: Sandra C. Matz, Kimberly Klugescheid, C. Horton, Sofie Goethals
+  venue: ''
+  year: 2025
+  url: https://arxiv.org/abs/2509.02910
+  pdf_url: https://arxiv.org/pdf/2509.02910
+  arxiv_id: '2509.02910'
+  doi: ''
+  citations: 5
+  is_preprint: true
+  section: preprints
+  pub_types: []
 - title: 'Fairness principles across contexts: evaluating gender disparities of facts and opinions in large language models'
   authors: Sofie Goethals, Lauren Rhue, Arun Sundararajan
   venue: AI and Ethics
@@ -87,7 +99,7 @@ publications:
   pdf_url: https://arxiv.org/pdf/2412.10281
   arxiv_id: '2412.10281'
   doi: 10.48550/arXiv.2412.10281
-  citations: 5
+  citations: 6
   is_preprint: false
   section: journal
   pub_types:
