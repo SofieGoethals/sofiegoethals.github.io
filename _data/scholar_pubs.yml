@@ -1,4 +1,4 @@
-last_updated: '2026-08-31'
+last_updated: '2026-09-07'
 author_id: '2304488611'
 publications:
 - title: 'LLM Consumer Behavior Theory: Foundations of a Novel Research Field'
@@ -16,12 +16,12 @@ publications:
   - JournalArticle
 - title: Cash or Comfort? How LLMs Value Your Inconvenience
   authors: Mateusz Cedro, Timour Ichmoukhamedov, Sofie Goethals, Yifan He, James Hinns, David Martens
-  venue: arXiv.org
+  venue: Communications of the ACM
   year: 2025
-  url: https://doi.org/10.48550/arXiv.2506.17367
-  pdf_url: https://arxiv.org/pdf/2506.17367
+  url: https://doi.org/10.1145/3799434
+  pdf_url: https://doi.org/10.1145/3799434
   arxiv_id: '2506.17367'
-  doi: 10.48550/arXiv.2506.17367
+  doi: 10.1145/3799434
   citations: 1
   is_preprint: false
   section: journal
@@ -99,7 +99,7 @@ publications:
   pdf_url: https://arxiv.org/pdf/2412.10281
   arxiv_id: '2412.10281'
   doi: 10.48550/arXiv.2412.10281
-  citations: 6
+  citations: 7
   is_preprint: false
   section: journal
   pub_types:
