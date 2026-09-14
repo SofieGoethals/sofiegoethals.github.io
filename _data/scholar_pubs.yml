@@ -1,4 +1,4 @@
-last_updated: '2026-09-07'
+last_updated: '2026-09-14'
 author_id: '2304488611'
 publications:
 - title: 'LLM Consumer Behavior Theory: Foundations of a Novel Research Field'
@@ -79,7 +79,7 @@ publications:
   pub_types:
   - JournalArticle
 - title: Resource-constrained Fairness
-  authors: Sofie Goethals, Eoin Delaney, Brent Mittelstadt, Christopher Russell
+  authors: Sofie Goethals, Eoin Delaney, Brent D. Mittelstadt, Christopher Russell
   venue: arXiv.org
   year: 2024
   url: https://doi.org/10.48550/arXiv.2406.01290
