@@ -20,7 +20,6 @@ More recently I have been studying **LLM-based AI agents** and their societal im
   Also on <a href="https://scholar.google.com/citations?user=3yM14pcAAAAJ&hl=en" target="_blank">Google Scholar</a>
   &nbsp;·&nbsp;
   <a href="https://orcid.org/0000-0003-3784-826X" target="_blank"><i class="fab fa-orcid"></i> ORCID</a>
-  {% if site.data.scholar_pubs.last_updated %}&nbsp;·&nbsp;<span style="font-size:0.85rem;"><i class="fas fa-sync-alt"></i> Synced {{ site.data.scholar_pubs.last_updated }}</span>{% endif %}
 </p>
 
 ---
