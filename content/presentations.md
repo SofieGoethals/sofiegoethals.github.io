@@ -136,6 +136,14 @@ title: Outreach
 <summary class="year-toggle" style="font-size:1.1rem;"><i class="fas fa-newspaper" style="margin-right:0.4rem;"></i> Press & Blog Posts</summary>
 
 <div class="pub-entry">
+<p><strong>KU Leuven Digital Society Institute</strong> &nbsp;<span class="pub-venue">2026</span></p>
+<p class="pub-venue"><em>The Bias-Personalisation Trade-off in LLMs</em> (with Manon Reusens)</p>
+<div class="pub-links">
+  <a class="pub-link-badge badge-link" href="https://www.kuleuven.be/digisoc/blog-2/Blogposts/the-bias-personalisation-trade-off-in-llms" target="_blank"><i class="fas fa-external-link-alt"></i> Read</a>
+</div>
+</div>
+
+<div class="pub-entry">
 <p><strong>The Conversation</strong> &nbsp;<span class="pub-venue">2024</span></p>
 <p class="pub-venue"><em>Opening the black box: how 'Explainable AI' can help us understand how algorithms work</em></p>
 <div class="pub-links">

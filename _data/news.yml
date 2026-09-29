@@ -1,4 +1,8 @@
 - date: "2026-09"
+  emoji: "✍️"
+  text: "New blog post with Manon Reusens for the KU Leuven Digital Society Institute: [The Bias-Personalisation Trade-off in LLMs](https://www.kuleuven.be/digisoc/blog-2/Blogposts/the-bias-personalisation-trade-off-in-llms)!"
+
+- date: "2026-09"
   emoji: "🏆"
   text: "Our paper [Cash or Comfort? How LLMs Value Your Inconvenience](https://cacm.acm.org/research/cash-or-comfort-how-llms-value-your-inconvenience/) is published as the **cover story** of *Communications of the ACM*!"
 
