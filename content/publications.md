@@ -28,6 +28,23 @@ More recently I have been studying **LLM-based AI agents** and their societal im
 <div class="pub-section-title"><i class="fas fa-book-open"></i> Journal Publications</div>
 
 <div class="pub-entry">
+<p><strong>Cedro, M., Ichmoukhamedov, T., Goethals, S., He, Y., Hinns, J. & Martens, D.</strong> (2026). Cash or Comfort? How LLMs Value Your Inconvenience. <em>Communications of the ACM</em>, 69(9), 58–66. <span style="color: var(--text-muted);">(Cover story)</span></p>
+<div class="pub-links">
+  <a class="pub-link-badge badge-doi" href="https://doi.org/10.1145/3799434" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
+  <a class="pub-link-badge badge-pdf" href="https://cacm.acm.org/research/cash-or-comfort-how-llms-value-your-inconvenience/" target="_blank"><i class="fas fa-newspaper"></i> CACM</a>
+  <a class="pub-link-badge badge-arxiv" href="https://arxiv.org/abs/2506.17367" target="_blank"><i class="fas fa-archive"></i> arXiv</a>
+</div>
+</div>
+
+<div class="pub-entry">
+<p><strong>Martens, D., Shmueli, G., Evgeniou, T., Bauer, K., Janiesch, C., Feuerriegel, S., ... & Provost, F.</strong> (2026). Beware of "Explanations" of AI. <em>Business &amp; Information Systems Engineering</em>.</p>
+<div class="pub-links">
+  <a class="pub-link-badge badge-doi" href="https://doi.org/10.1007/s12599-026-01015-y" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
+  <a class="pub-link-badge badge-pdf" href="https://link.springer.com/content/pdf/10.1007/s12599-026-01015-y.pdf" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
+</div>
+</div>
+
+<div class="pub-entry">
 <p><strong>Hinns, J., Goethals, S., Van der Veeken, S., Evgeniou, T. & Martens, D.</strong> (2026). On the Definition and Detection of Cherry-Picking in Counterfactual Explanations. <em>Data Mining and Knowledge Discovery</em>, 40(4).</p>
 <div class="pub-links">
   <a class="pub-link-badge badge-doi" href="https://link.springer.com/article/10.1007/s10618-026-01234-7" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
@@ -97,13 +114,6 @@ More recently I have been studying **LLM-based AI agents** and their societal im
 </div>
 </div>
 
-<div class="pub-entry">
-<p><strong>L. Rhue, Sofie Goethals, Arun Sundararajan</strong> (2024). <a href="https://doi.org/10.48550/arXiv.2403.09148" target="_blank">Evaluating LLMs for Gender Disparities in Notable Persons</a>. <em>arXiv.org</em>.</p>
-<div class="pub-links">
-  <a class="pub-link-badge badge-doi" href="https://doi.org/10.48550/arXiv.2403.09148" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
-  <a class="pub-link-badge badge-pdf" href="https://arxiv.org/pdf/2403.09148" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
-</div>
-</div>
 <!-- SYNC:journal -->
 
 ---
@@ -174,22 +184,6 @@ More recently I have been studying **LLM-based AI agents** and their societal im
 <div class="pub-links">
   <a class="pub-link-badge badge-arxiv" href="https://arxiv.org/abs/2509.02910" target="_blank"><i class="fas fa-archive"></i> arXiv</a>
   <a class="pub-link-badge badge-pdf" href="https://arxiv.org/pdf/2509.02910" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
-</div>
-</div>
-
-<div class="pub-entry">
-<p><strong>Cedro, M., Ichmoukhamedo, T., Goethals, S., He, Y., Hinns, J. & Martens, D.</strong> (2025). Cash or Comfort? How LLMs Value Your Inconvenience.</p>
-<div class="pub-links">
-  <a class="pub-link-badge badge-arxiv" href="https://arxiv.org/abs/2506.17367" target="_blank"><i class="fas fa-archive"></i> arXiv</a>
-  <a class="pub-link-badge badge-pdf" href="https://arxiv.org/pdf/2506.17367" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
-</div>
-</div>
-
-<div class="pub-entry">
-<p><strong>Martens, D., Shmueli, G., Evgeniou, T., Bauer, K., Janiesch, C., Feuerriegel, S., ... & Provost, F.</strong> (2025). Beware of "explanations" of AI.</p>
-<div class="pub-links">
-  <a class="pub-link-badge badge-arxiv" href="https://arxiv.org/abs/2504.06791" target="_blank"><i class="fas fa-archive"></i> arXiv</a>
-  <a class="pub-link-badge badge-pdf" href="https://arxiv.org/pdf/2504.06791" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
 </div>
 </div>
 

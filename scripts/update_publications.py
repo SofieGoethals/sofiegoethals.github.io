@@ -35,6 +35,11 @@ SCHOLAR_YML  = os.path.join(REPO_ROOT, "_data", "scholar_pubs.yml")
 NEWS_YML     = os.path.join(REPO_ROOT, "_data", "news.yml")
 PUBS_MD      = os.path.join(REPO_ROOT, "content", "publications.md")
 
+# Titles that should never be added to the site or news (e.g. superseded versions)
+EXCLUDE_TITLES = [
+    "Evaluating LLMs for Gender Disparities in Notable Persons",
+]
+
 
 # ── HTTP helpers ──────────────────────────────────────────────────
 def _get(endpoint: str, params: dict = None) -> dict:
@@ -378,7 +383,9 @@ def main():
     raw_papers = fetch_all_papers(author_id)
     print(f"  Total papers fetched: {len(raw_papers)}")
 
-    pubs = [paper_to_entry(p) for p in raw_papers if p.get("title")]
+    excluded   = {_norm(t) for t in EXCLUDE_TITLES}
+    pubs = [paper_to_entry(p) for p in raw_papers
+            if p.get("title") and _norm(p["title"]) not in excluded]
     pubs.sort(key=lambda x: x.get("year") or 0, reverse=True)
 
     # Save scholar_pubs.yml (used for "last synced" date in publications.md)

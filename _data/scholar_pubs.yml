@@ -65,19 +65,6 @@ publications:
   section: journal
   pub_types:
   - JournalArticle
-- title: Evaluating LLMs for Gender Disparities in Notable Persons
-  authors: L. Rhue, Sofie Goethals, Arun Sundararajan
-  venue: arXiv.org
-  year: 2024
-  url: https://doi.org/10.48550/arXiv.2403.09148
-  pdf_url: https://arxiv.org/pdf/2403.09148
-  arxiv_id: '2403.09148'
-  doi: 10.48550/arXiv.2403.09148
-  citations: 6
-  is_preprint: false
-  section: journal
-  pub_types:
-  - JournalArticle
 - title: Resource-constrained Fairness
   authors: Sofie Goethals, Eoin Delaney, Brent D. Mittelstadt, Christopher Russell
   venue: arXiv.org
