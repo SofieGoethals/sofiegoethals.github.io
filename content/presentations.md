@@ -5,6 +5,56 @@ title: Outreach
 <div class="pub-section-title"><i class="fas fa-chalkboard-teacher"></i> Presentations & Talks</div>
 
 <details open>
+<summary class="year-toggle">Upcoming</summary>
+
+<div class="pub-entry">
+<p><strong>KVAB Symposium — De toekomst van onderzoek in het tijdperk van Generatieve en Agentic AI</strong> &nbsp;<span class="pub-venue">Brussels, Belgium · 17 Nov 2026</span></p>
+<p class="pub-venue">Invited talk · <em>Ethiek en transparantie: Hoe omgaan met auteurschap en transparantie?</em></p>
+<div class="pub-links">
+  <a class="pub-link-badge badge-link" href="https://kvab.be/nl/activiteiten/de-toekomst-van-onderzoek-het-tijdperk-van-generatieve-en-agentic-ai" target="_blank"><i class="fas fa-external-link-alt"></i> Event</a>
+</div>
+</div>
+
+<div class="pub-entry">
+<p><strong>The CyberShift 2026</strong> &nbsp;<span class="pub-venue">Linden, Belgium · 26 Nov 2026</span></p>
+<p class="pub-venue">Invited talk · <em>AI Ethics</em></p>
+<div class="pub-links">
+  <a class="pub-link-badge badge-link" href="https://thecybershift.be/" target="_blank"><i class="fas fa-external-link-alt"></i> Event</a>
+</div>
+</div>
+
+<div class="pub-entry">
+<p><strong>VAIA Highway — Building Trustworthy AI in Healthcare</strong> &nbsp;<span class="pub-venue">UZ Antwerpen, Edegem, Belgium · 8 Dec 2026</span></p>
+<p class="pub-venue">Invited talk · <em>Fair enough? Bias in (Healthcare) AI systems</em></p>
+<div class="pub-links">
+  <a class="pub-link-badge badge-link" href="https://www.vaia.be/en/courses/highway-connecting-industry-with-state-of-the-art-in-ai-research/aihealthcare_highway" target="_blank"><i class="fas fa-external-link-alt"></i> Event</a>
+</div>
+</div>
+
+</details>
+
+<details open>
+<summary class="year-toggle">2026</summary>
+
+<div class="pub-entry">
+<p><strong>ECAF — European Conference on Algorithmic Fairness</strong> &nbsp;<span class="pub-venue">Ghent, Belgium</span></p>
+<p class="pub-venue">Accepted presentation · <em>Resource-constrained Fairness</em></p>
+<div class="pub-links">
+  <a class="pub-link-badge badge-pdf" href="https://proceedings.mlr.press/v350/goethals26b.html" target="_blank"><i class="fas fa-file-pdf"></i> Paper</a>
+</div>
+</div>
+
+<div class="pub-entry">
+<p><strong>ECAF — European Conference on Algorithmic Fairness</strong> &nbsp;<span class="pub-venue">Ghent, Belgium</span></p>
+<p class="pub-venue">Accepted presentation · <em>Towards Formalizing the Bias-Personalization Trade-off in Large Language Models</em></p>
+<div class="pub-links">
+  <a class="pub-link-badge badge-pdf" href="https://proceedings.mlr.press/v350/goethals26a.html" target="_blank"><i class="fas fa-file-pdf"></i> Paper</a>
+</div>
+</div>
+
+</details>
+
+<details>
 <summary class="year-toggle">2025</summary>
 
 <div class="pub-entry">

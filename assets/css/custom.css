@@ -378,6 +378,24 @@ body { font-family: 'Inter', system-ui, sans-serif !important; }
   margin-left: 0.5rem;
 }
 
+/* --- Collapsible publication sections ------------------------- */
+details.pub-section > summary.pub-section-title {
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+}
+details.pub-section > summary.pub-section-title::-webkit-details-marker { display: none; }
+details.pub-section > summary.pub-section-title::before {
+  content: '▶';
+  font-size: 0.65rem;
+  color: var(--accent);
+  transition: transform 0.18s;
+  flex-shrink: 0;
+}
+details.pub-section[open] > summary.pub-section-title::before { transform: rotate(90deg); }
+details.pub-section > summary.pub-section-title:hover { color: var(--accent); }
+.pub-count { font-weight: 500; font-size: 0.9rem; color: var(--text-muted); }
+
 /* --- Collapsible year sections (details/summary) --------------- */
 details { margin-bottom: 4px; }
 .year-toggle {

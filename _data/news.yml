@@ -1,3 +1,15 @@
+- date: "2026-10"
+  emoji: "📝"
+  text: "New preprint: [A Global View of How LLMs Value Human Time](https://arxiv.org/abs/2610.18515)!"
+
+- date: "2026-10"
+  emoji: "📄"
+  text: |
+    The [ECAF 2026 proceedings](https://proceedings.mlr.press/v350/) are out in PMLR, with our three papers:
+    [Resource-constrained Fairness](https://proceedings.mlr.press/v350/goethals26b.html)
+    [Towards Formalizing the Bias-Personalization Trade-off in Large Language Models](https://proceedings.mlr.press/v350/goethals26a.html)
+    [Who Gets the Better Story? An Exploration of Fairness in Explainable AI Narratives for Credit Scoring](https://proceedings.mlr.press/v350/bulck26a.html)
+
 - date: "2026-09"
   emoji: "✍️"
   text: "New blog post with Manon Reusens for the KU Leuven Digital Society Institute: [The Bias-Personalisation Trade-off in LLMs](https://www.kuleuven.be/digisoc/blog-2/Blogposts/the-bias-personalisation-trade-off-in-llms)!"

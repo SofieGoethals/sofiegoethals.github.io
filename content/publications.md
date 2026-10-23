@@ -24,7 +24,8 @@ More recently I have been studying **LLM-based AI agents** and their societal im
 
 ---
 
-<div class="pub-section-title"><i class="fas fa-book-open"></i> Journal Publications</div>
+<details class="pub-section">
+<summary class="pub-section-title"><i class="fas fa-book-open"></i> Journal Publications <span class="pub-count">(12)</span></summary>
 
 <div class="pub-entry">
 <p><strong>Cedro, M., Ichmoukhamedov, T., Goethals, S., He, Y., Hinns, J. & Martens, D.</strong> (2026). Cash or Comfort? How LLMs Value Your Inconvenience. <em>Communications of the ACM</em>, 69(9), 58–66. <span style="color: var(--text-muted);">(Cover story)</span></p>
@@ -113,11 +114,34 @@ More recently I have been studying **LLM-based AI agents** and their societal im
 </div>
 </div>
 
-<!-- SYNC:journal -->
+</details>
 
----
+<details class="pub-section">
+<summary class="pub-section-title"><i class="fas fa-users"></i> Conference Publications <span class="pub-count">(10)</span></summary>
 
-<div class="pub-section-title"><i class="fas fa-users"></i> Conference Publications</div>
+<div class="pub-entry">
+<p><strong>Goethals, S., Delaney, E., Mittelstadt, B. & Russell, C.</strong> (2026). Resource-constrained Fairness. <em>Proceedings of the Fifth European Conference on Algorithmic Fairness (ECAF 2026)</em>, PMLR 350:435–452.</p>
+<div class="pub-links">
+  <a class="pub-link-badge badge-pdf" href="https://raw.githubusercontent.com/mlresearch/v350/main/assets/goethals26b/goethals26b.pdf" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
+  <a class="pub-link-badge badge-doi" href="https://proceedings.mlr.press/v350/goethals26b.html" target="_blank"><i class="fas fa-external-link-alt"></i> PMLR</a>
+</div>
+</div>
+
+<div class="pub-entry">
+<p><strong>Goethals, S. & Reusens, M.</strong> (2026). Towards Formalizing the Bias-Personalization Trade-off in Large Language Models. <em>Proceedings of the Fifth European Conference on Algorithmic Fairness (ECAF 2026)</em>, PMLR 350:178–183.</p>
+<div class="pub-links">
+  <a class="pub-link-badge badge-pdf" href="https://raw.githubusercontent.com/mlresearch/v350/main/assets/goethals26a/goethals26a.pdf" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
+  <a class="pub-link-badge badge-doi" href="https://proceedings.mlr.press/v350/goethals26a.html" target="_blank"><i class="fas fa-external-link-alt"></i> PMLR</a>
+</div>
+</div>
+
+<div class="pub-entry">
+<p><strong>Van den Bulck, W., Goethals, S. & Martens, D.</strong> (2026). Who Gets the Better Story? An Exploration of Fairness in Explainable AI Narratives for Credit Scoring. <em>Proceedings of the Fifth European Conference on Algorithmic Fairness (ECAF 2026)</em>, PMLR 350:107–112.</p>
+<div class="pub-links">
+  <a class="pub-link-badge badge-pdf" href="https://raw.githubusercontent.com/mlresearch/v350/main/assets/bulck26a/bulck26a.pdf" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
+  <a class="pub-link-badge badge-doi" href="https://proceedings.mlr.press/v350/bulck26a.html" target="_blank"><i class="fas fa-external-link-alt"></i> PMLR</a>
+</div>
+</div>
 
 <div class="pub-entry">
 <p><strong>Ding, F., Shmueli, G., Greene, T. & Goethals, S.</strong> (2026). Adapting Multiverse Analysis for Prediction: A Decision-Maker's Dashboard. <em>Navigating the Model Uncertainty and the Rashomon Effect: From Theory and Tools to Applications and Impact</em>.</p>
@@ -170,27 +194,24 @@ More recently I have been studying **LLM-based AI agents** and their societal im
 </div>
 </div>
 
+</details>
 
-
-<!-- SYNC:conference -->
-
----
-
-<div class="pub-section-title"><i class="fas fa-file-alt"></i> Preprints</div>
+<details class="pub-section">
+<summary class="pub-section-title"><i class="fas fa-file-alt"></i> Preprints <span class="pub-count">(5)</span></summary>
 
 <div class="pub-entry">
-<p><strong>Matz, S., Horton, B. & Goethals, S.</strong> (2025). The Basic B*** Effect: The Use of LLM-based Agents Reduces the Distinctiveness and Diversity of People's Choices.</p>
+<p><strong>He, Y., Reusens, M., Goethals, S. & Martens, D.</strong> (2026). A Global View of How LLMs Value Human Time.</p>
 <div class="pub-links">
-  <a class="pub-link-badge badge-arxiv" href="https://arxiv.org/abs/2509.02910" target="_blank"><i class="fas fa-archive"></i> arXiv</a>
-  <a class="pub-link-badge badge-pdf" href="https://arxiv.org/pdf/2509.02910" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
+  <a class="pub-link-badge badge-arxiv" href="https://arxiv.org/abs/2610.18515" target="_blank"><i class="fas fa-archive"></i> arXiv</a>
+  <a class="pub-link-badge badge-pdf" href="https://arxiv.org/pdf/2610.18515" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
 </div>
 </div>
 
 <div class="pub-entry">
-<p><strong>Goethals, S., Delaney, E., Mittelstadt, B. & Russell, C.</strong> (2024). Resource-constrained fairness.</p>
+<p><strong>Zouhar, V., Bafna, N., Choudhary, M., ... Goethals, S., ... & Opitz, J.</strong> (2026). Last Translation Benchmark.</p>
 <div class="pub-links">
-  <a class="pub-link-badge badge-arxiv" href="https://arxiv.org/abs/2406.01290" target="_blank"><i class="fas fa-archive"></i> arXiv</a>
-  <a class="pub-link-badge badge-pdf" href="https://arxiv.org/pdf/2406.01290" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
+  <a class="pub-link-badge badge-arxiv" href="https://arxiv.org/abs/2609.04173" target="_blank"><i class="fas fa-archive"></i> arXiv</a>
+  <a class="pub-link-badge badge-pdf" href="https://arxiv.org/pdf/2609.04173" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
 </div>
 </div>
 
@@ -210,4 +231,12 @@ More recently I have been studying **LLM-based AI agents** and their societal im
 </div>
 </div>
 
-<!-- SYNC:preprints -->
+<div class="pub-entry">
+<p><strong>Matz, S., Klugescheid, K., Horton, B. & Goethals, S.</strong> (2025). The Basic B*** Effect: The Use of LLM-based Agents Reduces the Distinctiveness and Diversity of People's Choices.</p>
+<div class="pub-links">
+  <a class="pub-link-badge badge-arxiv" href="https://arxiv.org/abs/2509.02910" target="_blank"><i class="fas fa-archive"></i> arXiv</a>
+  <a class="pub-link-badge badge-pdf" href="https://arxiv.org/pdf/2509.02910" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
+</div>
+</div>
+
+</details>
